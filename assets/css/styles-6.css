@@ -103,6 +103,7 @@ p {
   /* font-size: 14px; */
   height: 30px;
   width: 30px;
+  display: inline-block;
 }
 .sidebar-wrapper .container-block {
   padding: 25px;
