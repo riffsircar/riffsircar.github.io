@@ -99,6 +99,11 @@ p {
 .sidebar-wrapper .contact-list .email .fa {
   font-size: 14px;
 }
+.sidebar-wrapper .social .fa {
+  /* font-size: 14px; */
+  height: 30px;
+  width: 30px;
+}
 .sidebar-wrapper .container-block {
   padding: 25px;
 }
