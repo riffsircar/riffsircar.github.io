@@ -202,7 +202,7 @@ p {
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
-  margin-bottom: 2px;
+  margin-bottom: 0;
 }
 .main-wrapper .paper-title {
   color: #3F4650;
