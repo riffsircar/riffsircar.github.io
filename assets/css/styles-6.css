@@ -71,6 +71,12 @@ p {
   color: #fff;
   width: 960px;
 }
+.sidebar-wrapper .profile-container .profile-image {
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
 .sidebar-wrapper .name {
   font-size: 32px;
   font-weight: 900;
