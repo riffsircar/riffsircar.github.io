@@ -73,9 +73,9 @@ p {
 }
 .sidebar-wrapper .profile-container .profile-image {
   margin-right: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   margin-left: 30px;
-  padding-bottom: 20px;
+  
 }
 
 .sidebar-wrapper .name {
