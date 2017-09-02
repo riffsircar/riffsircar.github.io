@@ -68,7 +68,7 @@ p {
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
-  width: 720px;
+  width: 100%;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
@@ -164,7 +164,7 @@ p {
   background: #fff;
   padding: 60px;
   padding-left: 300px;
-  padding-top: 100px;
+  padding-top: 300px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
