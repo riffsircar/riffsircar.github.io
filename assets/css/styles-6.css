@@ -65,8 +65,8 @@ p {
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  /* background: rgba(0, 0, 0, 0.2); */
-  background: #4B6A78;
+   background: rgba(0, 0, 0, 0.2); 
+  /* background: #4B6A78; */
   text-align: center;
   color: #fff;
   width: 960px;
@@ -165,7 +165,7 @@ p {
   background: #fff;
   padding: 60px;
   padding-left: 300px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
