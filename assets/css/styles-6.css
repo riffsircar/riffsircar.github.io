@@ -131,12 +131,13 @@ p {
   border-radius: 50%;
   text-align: center;
   padding-top: 8px;
+  background-clip: padding-box;
+  position: relative;
   /*
   
-  background-clip: padding-box;
+  
   font-size: 16px;
   position: relative;
-  top: -2px;
   */
 }
 .sidebar-wrapper .container-block {
