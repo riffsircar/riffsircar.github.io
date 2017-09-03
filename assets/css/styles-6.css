@@ -117,9 +117,31 @@ p {
 }
 .sidebar-wrapper .social .fa {
   font-size: 20px;
-  height: 10px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   display: inline-block;
+  
+  /*
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2e4049;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+  */
 }
 .sidebar-wrapper .container-block {
   padding: 25px;
