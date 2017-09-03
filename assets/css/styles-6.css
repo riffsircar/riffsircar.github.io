@@ -134,6 +134,7 @@ p {
   background-clip: padding-box;
   position: relative;
   font-size: 20px;
+  margin-right: 20px;
 }
 .sidebar-wrapper .container-block {
   padding: 25px;
