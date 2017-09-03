@@ -122,16 +122,17 @@ p {
   display: inline-block;
   background: #fff;
   color: #2e4049;
-  border-radius: 50%;
-  text-align: center;
-  top: -2px;
-  /*
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
+  border-radius: 50%;
+  text-align: center;
+  top: -2px;
+  /*
+  
   background-clip: padding-box;
   background: #2e4049;
   text-align: center;
