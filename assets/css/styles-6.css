@@ -75,7 +75,8 @@ p {
   margin-right: 80px;
   margin-bottom: 0;
   margin-left: 30px;
-  
+  padding: 1px;
+  border: 1px solid; 
 }
 
 .sidebar-wrapper .name {
