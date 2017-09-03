@@ -117,12 +117,13 @@ p {
 }
 .sidebar-wrapper .social .fa {
   font-size: 20px;
-  height: 20px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   display: inline-block;
   background: #fff;
   color: #2e4049;
   border-radius: 50%;
+  text-align: center;
   /*
   width: 30px;
   height: 30px;
