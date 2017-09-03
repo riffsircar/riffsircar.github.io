@@ -76,7 +76,12 @@ p {
   margin-bottom: 0;
   margin-left: 30px;
   padding: 1px;
-  border: 1px solid; 
+  border: 2px solid black;  
+  display: block;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  box-sizing: border-box;
 }
 
 .sidebar-wrapper .name {
