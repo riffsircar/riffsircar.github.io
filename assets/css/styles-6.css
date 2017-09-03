@@ -131,6 +131,7 @@ p {
   border-radius: 50%;
   text-align: center;
   top: -2px;
+  padding-top: 8px;
   /*
   
   background-clip: padding-box;
