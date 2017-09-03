@@ -130,14 +130,10 @@ p {
   -webkit-background-clip: padding-box;
   border-radius: 50%;
   text-align: center;
-  top: -2px;
   padding-top: 8px;
   /*
   
   background-clip: padding-box;
-  background: #2e4049;
-  text-align: center;
-  padding-top: 8px;
   font-size: 16px;
   position: relative;
   top: -2px;
