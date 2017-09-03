@@ -81,6 +81,8 @@ p {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
   box-sizing: border-box;
+  padding: 1px;
+  background: #ff0;
 }
 
 .sidebar-wrapper .name {
