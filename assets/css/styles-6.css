@@ -54,7 +54,7 @@ p {
 .sidebar-wrapper {
   background: #4B6A78;
   position: absolute;
-  left: 0;
+  right: 0;
   width: 240px;
   height: 100%;
   min-height: 800px;
@@ -193,7 +193,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-left: 300px;
+  padding-right: 300px;
   padding-top: 200px;
 }
 .main-wrapper .section-title {
