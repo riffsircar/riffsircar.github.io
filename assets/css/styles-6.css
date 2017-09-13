@@ -67,7 +67,7 @@ p {
   padding: 30px;
   /* background: rgba(0, 0, 0, 0.2); */
   background: #3D5462; 
-  text-align: left;
+  text-align: center;
   color: #fff;
   width: 680px;
   position: relative;
@@ -130,6 +130,7 @@ p {
   width: 30px;
   display: inline-block;
   background: #fff;
+  left: 10px;
   color: #2e4049;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -149,7 +150,7 @@ p {
 .sidebar-wrapper .links  {
 	margin-top: 40px;
 	position: relative;
-	left: 0;
+	left: 10px;
 	margin-bottom: 0;
 	font-size: 18px;
 	font-weight: 500;
@@ -224,7 +225,7 @@ p {
   background: #fff;
   padding: 60px;
   padding-right: 300px;
-  padding-top: 200px;
+  padding-top: 220px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
