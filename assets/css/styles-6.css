@@ -69,9 +69,9 @@ p {
   background: #3D5462; 
   text-align: center;
   color: #fff;
-  width: 680px;
+  width: 960px; 
   position: relative;
-  left: -680px;
+ left: -680px;
 }
 .sidebar-wrapper .profile-container .profile-image {
   margin-right: 80px;
@@ -88,7 +88,7 @@ p {
 }
 
 .sidebar-wrapper .sidebar {
-	top: -200px;
+	/* top: -200px; */
 	position: relative;
 }
 
