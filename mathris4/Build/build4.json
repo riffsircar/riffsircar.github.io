@@ -1,9 +1,9 @@
 {
 "companyName": "DefaultCompany",
 "productName": "Mathris",
-"dataUrl": "build2_1.data.unityweb",
-"wasmCodeUrl": "build2_1.wasm.code.unityweb",
-"wasmFrameworkUrl": "build2_1.wasm.framework.unityweb",
+"dataUrl": "build4.data.unityweb",
+"wasmCodeUrl": "build4.wasm.code.unityweb",
+"wasmFrameworkUrl": "build4.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
