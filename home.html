@@ -176,13 +176,13 @@ function bubbleSortStep() {
   <p align="center">
     <!-- <font size="7">Anurag Sarkar</font><br> -->
     <pageheading>Anurag Sarkar</pageheading><br>
-    <b>email</b>:sarkar.an@husky.neu.edu
+    <b>email</b>:
     <font id="email" style="display:inline;">
       <noscript><i>Please enable Javascript to view</i></noscript>
     </font>
     <script>
     emailScramble = new scrambledString(document.getElementById('email'),
-        'emailScramble', 'erepc@aahby.etulk.skde',
+        'emailScramble', 'sarkar.an@husky.neu.edu',
         [12,13,15,1,8,7,2,5,4,11,18,10,17,3,22,16,6,19,9,14,21,20]);
     </script>
   </p>
@@ -233,32 +233,27 @@ function bubbleSortStep() {
     <td width="67%" valign="top">
       <p><a href="https://pathak22.github.io/modular-assemblies/" id="ASSEMBLIES19">
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <heading>Learning to Control Self-Assembling Morphologies:<br/>A Study of Generalization via Modularity</heading></a><br>
-      <b>Deepak Pathak*</b>, Chris Lu*, Trevor Darrell, Phillip Isola, Alexei A. Efros<br>
-      NeurIPS, 2019 <b>(Spotlight presentation)</b><br>
-      Also, the winner of Virtual Creatures Competition at GECCO 2019 (<a href="https://virtualcreatures.github.io/">link</a>)
+      <heading>Game Design using Creative AI</heading></a><br>
+      <b>Anurag Sarkar</b><br>
+      NeurIPS 2019 Workshop on Machine Learning for Creativity and Design<br>
       </p>
 
-      <div class="paper" id="assemblies19">
+      <div class="paper" id="game19">
       <a href="https://pathak22.github.io/modular-assemblies/">webpage</a> |
       <a href="https://pathak22.github.io/modular-assemblies/resources/assemblies.pdf">pdf</a> |
-      <a href="javascript:toggleblock('assemblies19_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('assemblies19')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('game19_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('game19')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1902.05546v2">arXiv</a> |
       <a href="https://youtu.be/cg-RdkPtRiQ">video</a> |
       <a href="https://pathak22.github.io/modular-assemblies/index.html#sourceCode">code</a>
 
-      <p align="justify"> <i id="assemblies19_abs">Contemporary sensorimotor learning approaches typically start with an existing complex agent (e.g., a robotic arm), which they learn to control. In contrast, this paper investigates a modular co-evolution strategy: a collection of primitive agents learns to dynamically self-assemble into composite bodies while also learning to coordinate their behavior to control these bodies. Each primitive agent consists of a limb with a motor attached at one end. Limbs may choose to link up to form collectives. When a limb initiates a link-up action and there is another limb nearby, the latter is magnetically connected to the 'parent' limb's motor. This forms a new single agent, which may further link with other agents. In this way, complex morphologies can emerge, controlled by a policy whose architecture is in explicit correspondence with the morphology. We evaluate the performance of these <em>dynamic</em> and <em>modular</em> agents in simulated environments. We demonstrate better generalization to test-time changes both in the environment, as well as in the agent morphology, compared to static and monolithic baselines.</i></p>
+      <p align="justify"> <i id="game19_abs"> Creative AI refers to the application of AI techniques, primarily machine learning, for performing creative tasks such as generating art and music. In this paper, we present exploratory work that demonstrates and argues for leveraging such creative AI techniques for game design. We train variational autoencoders (VAEs) on levels from the games \textit{Super Mario Bros.} and \textit{Kid Icarus} and show how the affordances of the learned models can help inform co-creative game and level design, similar to applications of creative AI and machine learning in visual art and music.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathak19assemblies,
-  Author = {Pathak, Deepak and
-  Lu, Chris and Darrell, Trevor and
-  Isola, Phillip and Efros, Alexei A.},
-  Title = {Learning to Control Self-
-  Assembling Morphologies: A Study of
-  Generalization via Modularity},
-  Booktitle = {arXiv preprint arXiv:1902.05546},
+@inproceedings{sarkar19game,
+  Author = {Sarkar, Anurag},
+  Title = {Game Design using Creative AI},
+  Booktitle = {NeurIPS 2019 Workshop on Machine Learning for Creativity and Design},
   Year = {2019}
 }
 </pre>
@@ -276,24 +271,22 @@ function bubbleSortStep() {
       NeurIPS, 2019
       </p>
 
-      <div class="paper" id="neurips19">
+      <div class="paper" id="disjoint19">
       <a href="https://pathak22.github.io/hierarchical-imitation/">webpage</a> |
       <a href="https://pathak22.github.io/hierarchical-imitation/resources/paper.pdf">pdf</a> |
-      <a href="javascript:toggleblock('neurips19_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('neurips19')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('disjoint19_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('disjoint19')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1911.09676">arXiv</a> |
       <a href="https://youtu.be/eWBkDuNFEKA">video</a> |
       <a href="https://github.com/pathak22/hierarchical-imitation/">code</a>
 
-      <p align="justify"> <i id="neurips19_abs">We study a generalized setup for learning from demonstration to build an agent that can manipulate novel objects in unseen scenarios by looking at only a single video of human demonstration from a third-person perspective. To accomplish this goal, our agent should not only learn to understand the intent of the demonstrated third-person video in its context but also perform the intended task in its environment configuration. Our central insight is to enforce this structure explicitly during learning by decoupling <b>what</b> to achieve (intended task) from <b>how</b> to perform it (controller). We propose a hierarchical setup where a high-level module learns to generate a series of first-person sub-goals conditioned on the third-person video demonstration, and a low-level controller predicts the actions to achieve those sub-goals. Our agent acts from raw image observations without any access to the full state information. We show results on a real robotic platform using Baxter for the manipulation tasks of pouring and placing objects in a box.</i></p>
+      <p align="justify"> <i id="disjoint19_abs">Prior research has used player rating systems to balance difficulty in human computation games (HCGs) without having to modify their levels by assigning ratings to levels to indicate level difficulty. Skill chains have also been used to define difficulty progressions for such games. Both these methods typically involve associating a level with a single rating or set of skills as being representative of the difficulty of both the in-game mechanics of the level and the complexity of the task that it models, taken together as a single unit. Though effective, this may not be suitable for HCGs where the game and the task being modeled require different sets of skills and abilities. To this end, we introduce a disjoint skill model that separately tracks game and task skill and difficulty in a 2D platformer HCG. We find that the disjoint model enables players to solve more difficult tasks compared to a baseline model.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{sharma19thirdperson,
-  Author = {Sharma, Pratyusha and
-   Pathak, Deepak and Gupta, Abhinav},
-  Title = {Third-Person Visual Imitation Learning
-  via Decoupled Hierarchical Controller},
-  Booktitle = {NeurIPS},
+@inproceedings{sarkar19disjoint,
+  Author = {Sarkar, Anurag and Cooper, Seth},
+  Title = {Using a Disjoint Skill Model for Game and Task Difficulty in Human Computation Games},
+  Booktitle = {Proceedings of the 2019 Annual Symposium on Computer-Human Interaction in Play},
   Year = {2019}
 }
 </pre>
