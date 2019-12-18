@@ -232,7 +232,6 @@ function bubbleSortStep() {
     <td width="33%" valign="top" align="center"><a href="https://pathak22.github.io/modular-assemblies/"><img src="images/assemblies19.gif" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="https://pathak22.github.io/modular-assemblies/" id="ASSEMBLIES19">
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
       <heading>Game Design using Creative AI</heading></a><br>
       <b>Anurag Sarkar</b><br>
       NeurIPS 2019 Workshop on Machine Learning for Creativity and Design<br>
@@ -265,10 +264,9 @@ function bubbleSortStep() {
     <td width="33%" valign="top" align="center"><a href="https://pathak22.github.io/hierarchical-imitation/"><img src="images/neurips19.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="https://pathak22.github.io/hierarchical-imitation/" id="NEURIPS19">
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <heading>Third-Person Visual Imitation Learning via<br/>Decoupled Hierarchical Controller</heading></a><br>
-      Pratyusha Sharma, <b>Deepak Pathak</b>, Abhinav Gupta<br>
-      NeurIPS, 2019
+      <heading>Using a Disjoint Skill Model for Game and Task Difficulty in Human Computation Games</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
+      CHI Play, 2019
       </p>
 
       <div class="paper" id="disjoint19">
@@ -298,32 +296,29 @@ function bubbleSortStep() {
     <td width="33%" valign="top" align="center"><a href="https://pathak22.github.io/exploration-by-disagreement/"><img src="images/icml19.gif" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="https://pathak22.github.io/exploration-by-disagreement/" id="ICML19">
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <heading>Self-Supervised Exploration via Disagreement</heading></a><br>
-      <b>Deepak Pathak*</b>, Dhiraj Gandhi*, Abhinav Gupta<br>
-      ICML, 2019<br>
+      <heading>Controllable Level Blending between Games using Variational Autoencoders</heading></a><br>
+      <b>Anurag Sarkar</b>, Zhihan Yang, Seth Cooper<br>
+      AIIDE 2019 Workshop on Experimental AI in Games (EXAG)<br>
       </p>
 
-      <div class="paper" id="icml19">
+      <div class="paper" id="controllable19">
       <a href="https://pathak22.github.io/exploration-by-disagreement/">webpage</a> |
       <a href="https://pathak22.github.io/exploration-by-disagreement/resources/icml19.pdf">pdf</a> |
-      <a href="javascript:toggleblock('icml19_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('icml19')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('controllable19_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('controllable19')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1906.04161">arXiv</a> |
       <a href="https://pathak22.github.io/exploration-by-disagreement/index.html#sourceCode">code</a> |
       <a href="https://youtu.be/POlrWt32_ec">video</a> |
       <a href="https://videoken.com/embed/D0UmVbbJxS8?tocitem=89">oral talk</a>
       <!-- <br> -->
 
-      <p align="justify"> <i id="icml19_abs">Efficient exploration is a long-standing problem in sensorimotor learning. Major advances have been demonstrated in noise-free, non-stochastic domains such as video games and simulation. However, most of these formulations either get stuck in environments with stochastic dynamics or are too inefficient to be scalable to real robotics setups. In this paper, we propose a formulation for exploration inspired by the work in active learning literature. Specifically, we train an ensemble of dynamics models and incentivize the agent to explore such that the disagreement of those ensembles is maximized. This allows the agent to learn skills by exploring in a self-supervised manner <i>without any external reward</i>. Notably, we further leverage the disagreement objective to optimize the agent's policy in a <i>differentiable manner</i>, without using reinforcement learning, which results in a sample-efficient exploration. We demonstrate the efficacy of this formulation across a variety of benchmark environments including stochastic-Atari, Mujoco and Unity. Finally, we implement our differentiable exploration on a real robot which learns to interact with objects completely from scratch.</i></p>
+      <p align="justify"> <i id="controllable19_abs">Previous work explored blending levels from existing games to create levels for a new game that mixes properties of the original games. In this paper, we use Variational Autoencoders (VAEs) for improving upon such techniques. VAEs are artificial neural networks that learn and use latent representations of datasets to generate novel outputs. We train a VAE on level data from \textit{Super Mario Bros.} and \textit{Kid Icarus}, enabling it to capture the latent space spanning both games. We then use this space to generate level segments that combine properties of levels from both games. Moreover, by applying evolutionary search in the latent space, we evolve level segments satisfying specific constraints. We argue that these affordances make the VAE-based approach especially suitable for co-creative level design and compare its performance with similar generative models like the GAN and the VAE-GAN.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathak19disagreement,
-  Author = {Pathak, Deepak and
-  Gandhi, Dhiraj and Gupta, Abhinav},
-  Title = {Self-Supervised Exploration
-  via Disagreement},
-  Booktitle = {ICML},
+@inproceedings{sarkar19controllable,
+  Author = {Sarkar, Anurag and Yang, Zhihan and Cooper, Seth},
+  Title = {Controllable Level Blending between Games using Variational Autoencoders},
+  Booktitle = {Proceedings of the EXAG Workshop at AIIDE},
   Year = {2019}
 }
 </pre>
@@ -335,35 +330,29 @@ function bubbleSortStep() {
     <td width="33%" valign="center" align="center"><a href="https://pathak22.github.io/large-scale-curiosity/"><img src="images/iclr19.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="https://pathak22.github.io/large-scale-curiosity/" id="ICLR19">
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <heading>Large-Scale Study of Curiosity-Driven Learning</heading></a><br>
-      Yuri Burda*, Harri Edwards*, <b>Deepak Pathak*</b>, Amos Storkey,<br/>Trevor Darrell, Alexei A. Efros &nbsp;&nbsp;(* equal contribution, alphabetical)<br>
+      <heading>Using Rating Arrays to Estimate Score Distributions for Player-versus-Level Matchmaking</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
       <!-- <em>International Conference on Learning Representations (ICLR)</em>, 2019<br> -->
-      ICLR, 2019<br>
+      Foundations of Digital Games, 2019<br>
       </p>
 
-      <div class="paper" id="iclr19">
+      <div class="paper" id="arrays19">
       <a href="https://pathak22.github.io/large-scale-curiosity/">webpage</a> |
       <a href="https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf">pdf</a> |
-      <a href="javascript:toggleblock('iclr19_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('iclr19')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('arrays19_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('arrays19')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1808.04355">arXiv</a> |
       <a href="https://youtu.be/l1FqtAHfJLI">video</a> |
       <a href="https://github.com/openai/large-scale-curiosity">code</a>
       <br>
-      Also presented at NIPS'18 Deep RL Workshop (Oral)<br>
 
-      <p align="justify"> <i id="iclr19_abs">Reinforcement learning algorithms rely on carefully engineering environment rewards that are extrinsic to the agent. However, annotating each environment with hand-designed, dense rewards is not scalable, motivating the need for developing reward functions that are intrinsic to the agent. Curiosity is a type of intrinsic reward function which uses prediction error as reward signal. In this paper: (a) We perform the first large-scale study of purely curiosity-driven learning, i.e. without any extrinsic rewards, across 54 standard benchmark environments, including the Atari game suite. Our results show surprisingly good performance, and a high degree of alignment between the intrinsic curiosity objective and the hand-designed extrinsic rewards of many game environments. (b) We investigate the effect of using different feature spaces for computing prediction error and show that random features are sufficient for many popular RL game benchmarks, but learned features appear to generalize better (e.g. to novel game levels in Super Mario Bros.). (c) We demonstrate limitations of the prediction-based rewards in stochastic setups.</i></p>
+      <p align="justify"> <i id="arrays19_abs">Rating systems (like Elo and Glicko-2) have previously been used for predicting the expected score that a player will achieve on a level. We present an approach that predicts not a single score, but an approximate cumulative distribution function over possible scores. This approach assigns each level an array of multiple ratings for different score thresholds. Our long-term goal is twofold: first, to dynamically change level difficulty for each player by using this CDF to tailor the target score required to complete a level; second, in human computation games (HCGs), to identify players capable of setting new high scores that could correspond to improved solutions to underlying tasks. To move towards this goal, we explore the rating array approach using two datasets: one gathered from the HCG \textit{Paradox}, and one generated from idealized players and levels. We examine the accuracy of the CDF and the expected scores it predicts, as well as its use in serving levels to players who could set new high scores.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakICLR19largescale,
-  Author = {Burda, Yuri and
-  Edwards, Harri and Pathak, Deepak and
-  Storkey, Amos and Darrell, Trevor and
-  Efros, Alexei A.},
-  Title = {Large-Scale Study of
-  Curiosity-Driven Learning},
-  Booktitle = {ICLR},
+@inproceedings{sarkar19arrays,
+  Author = {Sarkar, Anurag and Cooper, Seth},
+  Title = {Using Rating Arrays to Estimate Score Distributions for Player-versus-Level Matchmaking},
+  Booktitle = {Proceedings of the Foundations of Digital Games},
   Year = {2019}
 }
 </pre>
@@ -375,33 +364,28 @@ function bubbleSortStep() {
     <td width="33%" valign="top" align="center"><a href="https://pathak22.github.io/seg-by-interaction/"><img src="images/cvprw18.jpg" alt="sym" width="90%" style="border-style: none"></a></td>
     <td width="67%" valign="top">
       <p><a href="https://pathak22.github.io/seg-by-interaction/" id="CVPRW18">
-      <heading>Learning Instance Segmentation by Interaction</heading></a><br>
-      <b>Deepak Pathak*</b>, Yide Shentu*, Dian Chen*, Pulkit Agrawal*,<br/>Trevor Darrell, Sergey Levine, Jitendra Malik<br>
-      <em><a href="https://sites.google.com/view/cvpr2018-robotic-vision/home" style="color:black" target="_blank">Deep Learning in Robotics Vision Workshop</a> (CVPR)</em>, 2018 (Oral)<br>
+      <heading>Inferring and Comparing Game Difficulty Curves using Player-versus-Level Match Data</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
+      IEEE Conference on Games, 2019<br>
       </p>
 
-      <div class="paper" id="cvprw18">
+      <div class="paper" id="inferring19">
       <a href="https://pathak22.github.io/seg-by-interaction/">webpage</a> |
       <a href="papers/cvprw18.pdf">pdf</a> |
-      <a href="javascript:toggleblock('cvprw18_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('cvprw18')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('inferring19_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('inferring19')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1806.08354">arXiv</a> |
       <a href="https://pathak22.github.io/seg-by-interaction/index.html#sourceCode">code</a>
       <br>
 
-      <p align="justify"> <i id="cvprw18_abs">We present an approach for building an active agent that learns to segment its visual observations into individual objects by interacting with its environment in a completely self-supervised manner. The agent uses its current segmentation model to infer pixels that constitute objects and refines the segmentation model by interacting with these pixels. The model learned from over 50K interactions generalizes to novel objects and backgrounds. To deal with noisy training signal for segmenting objects obtained by self-supervised interactions, we propose robust set loss. A dataset of robot's interactions along-with a few human labeled examples is provided as a benchmark for future research. We test the utility of the learned segmentation model by providing results on a downstream vision-based control task of rearranging multiple objects into target configurations from visual inputs alone.</i></p>
+      <p align="justify"> <i id="inferring19_abs">Prior work has focused on formalizing difficulty curves by using function composition to give precise definitions to curves and their transformations. However, the proposed framework was demonstrated using a single game, and the curves and transformations were defined with respect to the game's ratings-based dynamic difficulty system. In this work, we infer difficulty curves from gameplay data using a method that is based on the aforementioned difficulty system but that can also be generalized to other games for which information on player-vs-level win/loss outcomes is available. Moreover, since this method uses the same difficulty mechanism as past work, it lets us similarly leverage function composition to compare difficulty curves across games, having either a fixed or dynamic level ordering, using a clearly defined vocabulary. We use four different games to demonstrate our method, which relies on an adjustment to traditional playback of ratings-based match data, which we also present in this work.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakCVPRW18segByInt,
-      Author = {Pathak, Deepak and
-      Shentu, Yide and Chen, Dian and
-      Agrawal, Pulkit and Darrell, Trevor and
-      Levine, Sergey and Malik, Jitendra},
-      Title = {Learning Instance Segmentation
-        by Interaction},
-      Booktitle = {CVPR Workshop on Benchmarks for
-        Deep Learning in Robotic Vision},
-      Year = {2018}
+@inproceedings{sarkar19inferring,
+      Author = {Sarkar, Anurag and Cooper, Seth},
+      Title = {Inferring and Comparing Game Difficulty Curves using Player-versus-Level Match Data},
+      Booktitle = {Proceedings of the IEEE Conference on Games},
+      Year = {2019}
   }
 </pre>
       </div>
@@ -411,31 +395,27 @@ function bubbleSortStep() {
   <tr>
     <td width="33%" valign="center" align="center"><a href="https://arxiv.org/abs/1807.07560"><img src="images/compgan18.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
-      <p><a href="https://arxiv.org/abs/1807.07560" id="CompGAN18">
-      <heading>Compositional GAN: Learning Conditional Image Composition</heading></a><br>
-      Samaneh Azadi, <b>Deepak Pathak</b>, Sayna Ebrahimi, Trevor Darrell<br>
-      Pre-print on arXiv:1807.07560, 2018
-      <!-- <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2018<br> -->
+      <p><a href="https://arxiv.org/abs/1807.07560" id="transforming19">
+      <heading>Transforming Game Difficulty Curves using Function Composition</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
+      CHI 2019<br>     
       </p>
 
-      <div class="paper" id="compgan18">
+      <div class="paper" id="transforming19">
       <a href="https://arxiv.org/abs/1807.07560">arXiv pdf</a> |
-      <a href="javascript:toggleblock('compgan18_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('compgan18')" class="togglebib">bibtex</a>
+      <a href="javascript:toggleblock('transforming19_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('transforming19')" class="togglebib">bibtex</a>
       <!-- <a href="https://pathak22.github.io/large-scale-curiosity/index.html#sourceCode">code</a> -->
       <br>
 
-      <p align="justify"> <i id="compgan18_abs">Generative Adversarial Networks (GANs) can produce images of surprising complexity and realism, but are generally modeled to sample from a single latent source ignoring the explicit spatial interaction between multiple entities that could be present in a scene. Capturing such complex interactions between different objects in the world, including their relative scaling, spatial layout, occlusion, or viewpoint transformation is a challenging problem. In this work, we propose to model object composition in a GAN framework as a self-consistent composition-decomposition network. Our model is conditioned on the object images from their marginal distributions to generate a realistic image from their joint distribution by explicitly learning the possible interactions. We evaluate our model through qualitative experiments and user evaluations in both the scenarios when either paired or unpaired examples for the individual object images and the joint scenes are given during training. Our results reveal that the learned model captures potential interactions between the two object domains given as input to output new instances of composed scene at test time in a reasonable fashion.</i></p>
+      <p align="justify"> <i id="transforming19_abs">Player engagement within a game is often influenced by its difficulty curve: the pace at which in-game challenges become harder. Thus, finding an optimal difficulty curve is important. In this paper, we present a flexible and formal approach to transforming game difficulty curves by leveraging function composition. This allows us to describe changes to difficulty curves, such as making them ``smoother'', in a more precise way. In an experiment with 400 players, we used function composition to modify the existing difficulty curve of the puzzle game \textit{Paradox} to generate new curves. We found that transforming difficulty curves in this way impacted player engagement, including the number of levels completed and the estimated skill needed to complete those levels, as well as perceived competence. Further, we found some transformed curves dominated others with respect to engagement, indicating that different design goals can be traded-off by considering a subset of curves.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{azadi18compgan,
-  Author = {Azadi, Samaneh and
-  Pathak, Deepak and
-  Ebrahimi, Sayna and Darrell, Trevor},
-  Title = {Compositional GAN: Learning
-  Conditional Image Composition},
-  Booktitle = {arXiv:1807.07560},
-  Year = {2018}
+@inproceedings{sarkar19transforming,
+  Author = {Sarkar, Anurag and Cooper, Seth},
+  Title = {Transforming Game Difficulty Curves using Function Composition},
+  Booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing},
+  Year = {2019}
 }
 </pre>
       </div>
@@ -1060,13 +1040,13 @@ hideblock('assemblies19_abs');
 hideblock('compgan18_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('icml19_abs');
+hideblock('controllable19_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('phd19_abs');
+hideblock('disjoint19_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('neurips19_abs');
+hideblock('game19_abs');
 </script>
 </body>
 
