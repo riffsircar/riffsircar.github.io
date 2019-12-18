@@ -46,7 +46,50 @@
   }
   </style>
   <link rel="icon" type="image/png" href="images/seal_icon.png">
-  <script type="text/javascript" src="js/hidebib.js"></script>
+  <script type="text/javascript">
+    function hideallbibs()
+{
+    var el = document.getElementsByTagName("div") ;
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "paper") {
+            var bib = el[i].getElementsByTagName("pre") ;
+            if (bib.length > 0) {
+                bib [0] .style.display = 'none' ;
+            }
+        }
+    }
+}
+
+function togglebib(paperid)
+{
+    var paper = document.getElementById(paperid) ;
+    var bib = paper.getElementsByTagName('pre') ;
+    if (bib.length > 0) {
+        if (bib [0] .style.display == 'none') {
+            bib [0] .style.display = 'block' ;
+        } else {
+            bib [0] .style.display = 'none' ;
+        }
+    }
+}
+
+function toggleblock(blockId)
+{
+   var block = document.getElementById(blockId);
+   if (block.style.display == 'none') {
+    block.style.display = 'block' ;
+   } else {
+    block.style.display = 'none' ;
+   }
+}
+
+function hideblock(blockId)
+{
+   var block = document.getElementById(blockId);
+   block.style.display = 'none' ;
+}
+
+  </script>
   <title>Anurag Sarkar</title>
   <meta name="Anurag Sarkar's Homepage" http-equiv="Content-Type" content="Anurag Sarkar's Homepage">
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
