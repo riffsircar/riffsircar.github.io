@@ -426,19 +426,16 @@ function bubbleSortStep() {
     <td width="33%" valign="center" align="center"><a href="http://pathak22.github.io/zeroshot-imitation/"><img src="images/iclr18_1.gif" alt="sym" width="65%" border="1" style="border-color:black"><hr style="height:0pt; visibility:hidden; margin:0"/><img src="images/iclr18_2.gif" alt="sym" width="65%" border="1" style="border-color:black"></a></td>
     <td width="67%" valign="top">
       <p><a href="http://pathak22.github.io/zeroshot-imitation/" id="ICLR18">
-      <heading>Zero-Shot Visual Imitation</heading></a><br>
-      <b>Deepak Pathak*</b>, Parsa Mahmoudieh*, Guanghao Luo*, Pulkit Agrawal*, Dian Chen, Yide Shentu, Evan Shelhamer, Jitendra Malik, Alexei A. Efros, Trevor Darrell<br>
-      ICLR, 2018 <b>(Oral presentation)</b><br>
-      <!-- <em>International Conference on Learning Representations (ICLR)</em>, 2018<br> -->
-      <!-- <strong style="color:red">Oral presentation <a href="https://vimeo.com/237270588" target="_blank" style="color:red">[video]</a></strong> -->
-      <!-- <strong style="color:black">(Oral presentation)</strong> -->
+      <heading>Blending Levels from Different Games using LSTMs</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
+      EXAG 2018<br>
       </p>
 
-      <div class="paper" id="iclr18">
+      <div class="paper" id="blending18">
       <a href="http://pathak22.github.io/zeroshot-imitation/">webpage</a> |
       <!-- <a href="http://pathak22.github.io/zeroshot-imitation/resources/iclr18.pdf">pdf</a> | -->
-      <a href="javascript:toggleblock('iclr18_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('iclr18')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('blending18_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('blending18')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1804.08606" target="_blank">arXiv</a> |
       <a href="http://pathak22.github.io/zeroshot-imitation/index.html#sourceCode">code</a> |
       <a href="http://pathak22.github.io/zeroshot-imitation/index.html#demoVideos">videos</a> |
@@ -446,18 +443,13 @@ function bubbleSortStep() {
       <a href="https://www.dropbox.com/s/36efg1t3qn6i495/2018_04_ZeroShotImitation.pptx">slides</a>
       <br>
 
-      <p align="justify"> <i id="iclr18_abs">The current dominant paradigm for imitation learning relies on strong supervision of expert actions to learn both 'what' and 'how' to imitate. We pursue an alternative paradigm wherein an agent first explores the world without any expert supervision and then distills its experience into a goal-conditioned skill policy with a novel forward consistency loss. In our framework, the role of the expert is only to communicate the goals (i.e., what to imitate) during inference. The learned policy is then employed to mimic the expert (i.e., how to imitate) after seeing just a sequence of images demonstrating the desired task. Our method is 'zero-shot' in the sense that the agent never has access to expert actions during training or for the task demonstration at inference. We evaluate our zero-shot imitator in two real-world settings: complex rope manipulation with a Baxter robot and navigation in previously unseen office environments with a TurtleBot. Through further experiments in VizDoom simulation, we provide evidence that better mechanisms for exploration lead to learning a more capable policy which in turn improves end task performance.</i></p>
+      <p align="justify"> <i id="blending18_abs">Recent work has shown machine learning approaches to be effective in training models on existing game data for informing procedural generation of novel content. Specifically, ML techniques have successfully used existing game levels to train models for generating new levels and blending existing ones. Such blending of not just levels, but entire games, has also been proposed as a possible means of generating new games. In this paper, we build on these works by training Long Short Term Memory recurrent neural networks on level data for two separate platformer games---\textit{Super Mario Bros.} and \textit{Kid Icarus}---and use these models to create new levels that are blends of levels from both games, thus creating a level generator for a novel, third game.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakICLR18zeroshot,
-    Author = {Pathak, Deepak and
-    Mahmoudieh, Parsa and Luo, Guanghao and
-    Agrawal, Pulkit and Chen, Dian and
-    Shentu, Yide and Shelhamer, Evan and
-    Malik, Jitendra and Efros, Alexei A. and
-    Darrell, Trevor},
-    Title = {Zero-Shot Visual Imitation},
-    Booktitle = {ICLR},
+@inproceedings{sarkar18blending,
+    Author = {Sarkar, Anurag and Cooper, Seth},
+    Title = {Blending Levels from Different Games using LSTMs},
+    Booktitle = {Proceedings of the EXAG Workshop at AIIDE},
     Year = {2018}
 }
 </pre>
@@ -469,33 +461,27 @@ function bubbleSortStep() {
     <td width="33%" valign="center" align="center"><a href="https://rach0012.github.io/humanRL_website/"><img src="images/icml18.png" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="https://rach0012.github.io/humanRL_website/" id="ICML18">
-      <heading>Investigating Human Priors for Playing Video Games</heading></a><br>
-      Rachit Dubey, Pulkit Agarwal, <b>Deepak Pathak</b>, Thomas L. Griffiths,<br/>Alexei A. Efros<br>
-      <!-- <em>International Conference on Machine Learning (ICML)</em>, 2018<br> -->
-      <!-- <strong style="color:black">(Long oral presentation)</strong> -->
-      ICML, 2018 <b>(Long oral presentation)</b><br>
+      <heading>Desire Path-inspired Procedural Placement of Coins in a Platformer Game</heading></a><br>
+      <b>Anurag Sarkar</b>, Varun Sriram, Riddhi Padte, Jeffrey Cao, Seth Cooper<br>
+      EXAG 2018<br>
       </p>
 
-      <div class="paper" id="icml18">
+      <div class="paper" id="desire18">
       <a href="https://rach0012.github.io/humanRL_website/">webpage</a> |
       <a href="papers/icml18.pdf">pdf</a> |
-      <a href="javascript:toggleblock('icml18_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('icml18')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('desire18_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('desire18')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1802.10217">arXiv</a> |
       <a href="https://youtu.be/Ol0-c9OE3VQ" target="_blank">video</a>
       <br>
-      Also presented at ICLR'18 Workshop track.<br>
 
-      <p align="justify"> <i id="icml18_abs">What makes humans so good at solving seemingly complex video games? Unlike computers, humans bring in a great deal of prior knowledge about the world, enabling efficient decision making. This paper investigates the role of human priors for solving video games. Given a sample game, we conduct a series of ablation studies to quantify the importance of various priors on human performance. We do this by modifying the video game environment to systematically mask different types of visual information that could be used by humans as priors. We find that removal of some prior knowledge causes a drastic degradation in the speed with which human players solve the game, e.g. from 2 minutes to over 20 minutes. Furthermore, our results indicate that general priors, such as the importance of objects and visual consistency, are critical for efficient game-play.</i></p>
+      <p align="justify"> <i id="desire18_abs">Many games feature collectible items that are manually placed by a designer. In this work, we developed an algorithm, inspired by \emph{desire paths}, for automatically placing collectible coins in a platformer game. Desire paths are paths naturally formed where people walk, rather than those laid down artificially, and are often the shortest or easiest route between an origin and destination. Our algorithm uses player trajectories to find paths along which to place the coins for each level. We ran an experiment comparing path-based placement to other placement methods. Although we did not find a difference in total time spent playing or likelihood of finishing the game, our results suggest that path-based placement leads to players collecting more coins in less time than with designer or randomly placed coins. Further, we found that players played similarly when coins were either path-based or there were no coins, and similarly when coins were either placed by a designer or randomly.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakICML18human,
-    Author = {Dubey, Rachit and Agrawal, Pulkit
-    and Pathak, Deepak and Griffiths, Thomas L.
-    and Efros, Alexei A.},
-    Title = {Investigating Human Priors for
-    Playing Video Games},
-    Booktitle = {ICML},
+@inproceedings{sarkar18desire,
+    Author = {Sarkar, Anurag and Sriram, Varun and Padte, Riddhi and Cao, Jeffrey and Cooper, Seth},
+    Title = {Desire Path-inspired Procedural Placement of Coins in a Platformer Game},
+    Booktitle = {Proceedings of the Experimental AI in Games Workshop at AIIDE},
     Year = {2018}
 }
 </pre>
@@ -507,36 +493,29 @@ function bubbleSortStep() {
     <td width="33%" valign="center" align="center"><a href="http://pathak22.github.io/noreward-rl/"><img src="images/icml17_1.gif" alt="sym" width="49%" style="border-radius:15px">&nbsp;<img src="images/icml17_2.gif" alt="sym" width="49%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="http://pathak22.github.io/noreward-rl/" id="ICML17">
-      <heading>Curiosity-driven Exploration by Self-supervised Prediction</heading></a><br>
-      <b>Deepak Pathak</b>, Pulkit Agrawal, Alexei A. Efros, Trevor Darrell<br>
-      <!-- <em>International Conference on Machine Learning (ICML)</em>, 2017<br>
-      <strong><a href="https://vimeo.com/237270588" target="_blank" style="color:black">(Oral presentation link)</a></strong> -->
-      ICML, 2017 <b><a href="https://vimeo.com/237270588" target="_blank" style="color:black">(Oral presentation link)</a></b><br>
+      <heading>Comparing Paid and Volunteer Recruitment in Human Computation Games</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
+      FDG, 2018<br>
       </p>
       <div class="paper" id="icml17">
       <a href="http://pathak22.github.io/noreward-rl/">webpage</a> |
       <a href="http://pathak22.github.io/noreward-rl/resources/icml17.pdf">pdf</a> |
-      <a href="javascript:toggleblock('icml17_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('icml17')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('comparing18_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('comparing18')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1705.05363">arXiv</a> |
       <a href="http://pathak22.github.io/noreward-rl/index.html#sourceCode">code</a> |
       <a href="http://pathak22.github.io/noreward-rl/index.html#demoVideo">video</a> |
       <a href="http://pathak22.github.io/noreward-rl/index.html#media">in the media</a>
       <br/>
-      Also presented at CVPR'17 <a href="http://juxi.net/workshop/deep-learning-robotic-vision-cvpr-2017/" style="color:black" target="_blank">Robotic Vision Workshop</a> (Oral)<br>
 
-      <p align="justify"> <i id="icml17_abs">In many real-world scenarios, rewards extrinsic to the agent are extremely sparse, or absent altogether. In such cases, curiosity can serve as an intrinsic reward signal to enable the agent to explore its environment and learn skills that might be useful later in its life. We formulate curiosity as the error in an agent's ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model. Our formulation scales to high-dimensional continuous state spaces like images, bypasses the difficulties of directly predicting pixels, and, critically, ignores the aspects of the environment that cannot affect the agent. The proposed approach is evaluated in two environments: <i>VizDoom</i> and <i>Super Mario Bros</i>. Three broad settings are investigated: 1) sparse extrinsic reward, where curiosity allows for far fewer interactions with the environment to reach the goal; 2) exploration with no extrinsic reward, where curiosity pushes the agent to explore more efficiently; and 3) generalization to unseen scenarios (e.g. new levels of the same game) where the knowledge gained from earlier experience helps the agent explore new places much faster than starting from scratch.</i></p>
+      <p align="justify"> <i id="comparing18_abs">Paid platforms like Mechanical Turk are popular for recruiting players for playtesting and experiments. However, it is unclear if paid players have similar behavior or experiences as volunteers (i.e. players recruited for free through banner ads or game portals). In this work, we studied the impact of recruitment within human computation games, using two experiments. First, we compared voluntary recruitment versus paid recruitment with different compensation levels. We found that the highest paid players completed more levels (i.e. achieved a higher \textit{volume} of completed tasks) and reported greater engagement than both volunteers and players paid less while volunteers completed levels of higher difficulty (i.e. achieved a higher \textit{quality} of completed tasks) than paid players. Additionally, we also varied both recruitment strategy and the game's design and found no interaction effects, suggesting that while differences exist between volunteer and paid players, experimental changes do not impact those players differently.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakICMl17curiosity,
-    Author = {Pathak, Deepak and
-    Agrawal, Pulkit and
-    Efros, Alexei A. and
-    Darrell, Trevor},
-    Title = {Curiosity-driven Exploration
-    by Self-supervised Prediction},
-    Booktitle = {ICML},
-    Year = {2017}
+@inproceedings{sarkar18comparing,
+    Author = {Sarkar, Anurag and Cooper, Seth},
+    Title = {Comparing Paid and Volunteer Recruitment in Human Computation Games},
+    Booktitle = {Proceedings of the Foundations of Digital Games},
+    Year = {2018}
 }</pre>
       </div>
     </td>
@@ -546,34 +525,29 @@ function bubbleSortStep() {
     <td width="33%" valign="center" align="center"><a href="https://junyanz.github.io/BicycleGAN"><img src="images/nips17.gif" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="https://junyanz.github.io/BicycleGAN" id="NIPS17">
-      <heading>Toward Multimodal Image-to-Image Translation</heading></a><br>
-      Jun-Yan Zhu, Richard Zhang, <b>Deepak Pathak</b>, Trevor Darrell,<br/>Alexei A. Efros, Oliver Wang, Eli Shechtman<br>
-      NIPS, 2017
-      <!-- <em>Neural Information Processing Systems (NIPS)</em>, 2017<br> -->
+      <heading>Meet your Match Rating: Providing Skill Information and Choice in Player-versus-Level Matchmaking</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
+      FDG 2018
       </p>
 
       <div class="paper" id="nips17">
       <a href="https://junyanz.github.io/BicycleGAN">webpage</a> |
       <a href="papers/nips17.pdf">pdf</a> |
-      <a href="javascript:toggleblock('nips17_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('nips17')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('meet18_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('meet18')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1711.11586">arXiv</a> |
       <a href="https://github.com/junyanz/BicycleGAN">code</a> |
       <a href="https://youtu.be/JvGysD2EFhw">video</a>
       <br>
 
-      <p align="justify"> <i id="nips17_abs">Many image-to-image translation problems are ambiguous, as a single input image may correspond to multiple possible outputs. In this work, we aim to model a distribution of possible outputs in a conditional generative modeling setting. The ambiguity of the mapping is distilled in a low-dimensional latent vector, which can be randomly sampled at test time. A generator learns to map the given input, combined with this latent code, to the output. We explicitly encourage the connection between output and the latent code to be invertible. This helps prevent a many-to-one mapping from the latent code to the output during training, also known as the problem of mode collapse, and produces more diverse results. We explore several variants of this approach by employing different training objectives, network architectures, and methods of injecting the latent code. Our proposed method encourages bijective consistency between the latent encoding and output modes. We present a systematic comparison of our method and other variants on both perceptual realism and diversity.</i></p>
+      <p align="justify"> <i id="meet18_abs">Previous work has demonstrated the effectiveness of rating system-based matchmaking for level ordering within the particular constraints of human computation games. However, players were not informed about the rating system, nor allowed to choose the difficulty of upcoming levels. Informing players of the ratings used in the system and offering them choice of upcoming level difficulty may enhance feelings of competence and control respectively, thereby further improving player engagement. Thus, we attempted to improve player experience by both exposing players to the underlying rating system, as well as offering them choice of level difficulty. We found that players cognizant of ratings both attempted and completed more levels than those who were not. Though additionally offering choice did not significantly affect behavior, we found that player choice was influenced by the outcome of the preceding level. Moreover, we did not observe any significant impact on self-reported measures of subjective experience.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{zhu2017multimodal,
-    Author = {Zhu, Jun-Yan and Zhang, Richard
-    and Pathak, Deepak and Darrell, Trevor
-    and Efros, Alexei A and Wang, Oliver
-    and Shechtman, Eli},
-    Title = {Toward Multimodal Image-to-Image
-    Translation},
-    Booktitle = {NIPS},
-    Year = {2017}
+@inproceedings{sarkar18meet,
+    Author = {Sarkar, Anurag and Cooper, Seth},
+    Title = {Meet your Match Rating: Providing Skill Information and Choice in Player-versus-Level Matchmaking},
+    Booktitle = {Proceedings of the Foundations of Digital Games},
+    Year = {2018}
 }
 </pre>
       </div>
@@ -584,34 +558,27 @@ function bubbleSortStep() {
     <td width="33%" valign="top" align="center"><a href="unsupervised_video/"><img src="images/cvpr17.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="unsupervised_video/" id="CVPR17">
-      <heading>Learning Features by Watching Objects Move</heading></a><br>
-      <b>Deepak Pathak</b>, Ross Girshick, Piotr Doll&aacute;r, Trevor Darrell,<br/>Bharath Hariharan<br>
-      <!-- <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2017<br> -->
-      CVPR, 2017
+      <heading>Level Difficulty and Player Skill Prediction in Human Computation Games</heading></a><br>
+      <b>Anurag Sarkar</b>, Seth Cooper<br>
+      AIIDE 2017
       </p>
 
       <div class="paper" id="cvpr17">
       <a href="unsupervised_video/">webpage</a> |
       <a href="papers/cvpr17.pdf">pdf</a> |
-      <a href="javascript:toggleblock('cvpr17_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('cvpr17')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('level17_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('level17')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1612.06370">arXiv</a> |
       <a href="unsupervised_video/index.html#sourceCode">code</a>
       <br>
-      Also presented at <a href="https://research.google.com/youtube8m/workshop.html">YouTube-8M Video Understanding Workshop</a> (Oral)<br>
-
-      <p align="justify"> <i id="cvpr17_abs">This paper presents a novel yet intuitive approach to unsupervised feature learning. Inspired by the human visual system, we explore whether low-level motion-based grouping cues can be used to learn an effective visual representation. Specifically, we use unsupervised motion-based segmentation on videos to obtain segments, which we use as `pseudo ground truth' to train a convolutional network to segment objects from a single frame. Given the extensive evidence that motion plays a key role in the development of the human visual system, we hope that this straightforward approach to unsupervised learning will be more effective than cleverly designed `pretext' tasks studied in the literature. Indeed, our extensive experiments show that this is the case. When used for transfer learning on object detection, our representation significantly outperforms previous unsupervised approaches across multiple settings, especially when training data for the target task is scarce.</i></p>
+      
+      <p align="justify"> <i id="level17_abs">Human computation games (HCGs) often suffer from low player retention. This may be due to the constraints placed on level and game design from the real-world application of the game. Previous work has suggested using player rating systems (such as Elo, Glicko-2, or TrueSkill) as a basis for matchmaking between HCG levels and players, as a means to improve difficulty balancing and thus player retention. Such rating systems typically start incoming entities with a default rating.  However, when applied to HCGs, incoming entities may have useful information associated with them, such as player behavior during tutorials and properties of the tasks underlying the levels.  In this work, we examined using features derived from player behavior and level properties to predict their eventual Glicko-2 ratings in the HCG \game{Paradox}. We found that using regression produced rating estimates closer to the actual ratings than default or baseline average ratings. The use of rating systems allows a unified approach to predicting both player skill and level difficulty.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakCVPR17learning,
-    Author = {Pathak, Deepak and
-    Girshick, Ross and
-    Doll{\'a}r, Piotr and
-    Darrell, Trevor and
-    Hariharan, Bharath},
-    Title = {Learning Features
-    by Watching Objects Move},
-    Booktitle = {CVPR},
+@inproceedings{sarkar17level,
+    Author = {Sarkar, Anurag and Cooper, Seth},
+    Title = {Level Difficulty and Player Skill Prediction in Human Computation Games},
+    Booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment},
     Year = {2017}
 }
 </pre>
@@ -623,34 +590,28 @@ function bubbleSortStep() {
     <td width="33%" valign="top" align="center"><a href="context_encoder/"><img src="images/cvpr16.jpg" alt="sym" width="75%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="context_encoder/" id="CVPR16">
-      <heading>Context Encoders: Feature Learning by Inpainting</heading></a><br>
-      <b>Deepak Pathak</b>, Philipp Kr&auml;henb&uuml;hl, Jeff Donahue, Trevor Darrell,<br/>Alexei A. Efros<br>
-      <!-- <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2016<br> -->
-      CVPR, 2016
+      <heading>Predicting Human Computation Game Scores with Player Rating Systems</heading></a><br>
+      Michael Williams, <b>Deepak Pathak</b>, Seth Cooper<br>
+      ICEC, 2017
       </p>
 
       <div class="paper" id="cvpr16">
       <a href="context_encoder/">webpage</a> |
       <a href="papers/cvpr16.pdf">pdf w/ supp</a> |
-      <a href="javascript:toggleblock('cvpr16_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('cvpr16')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('predicting17_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('predicting17')" class="togglebib">bibtex</a> |
       <a href="https://arxiv.org/abs/1604.07379">arXiv</a> |
       <a href="https://github.com/pathak22/context-encoder">code</a> |
       <a href="context_encoder/resources/ContextEncoder_Slides.pptx">slides</a>
 
-      <p align="justify"> <i id="cvpr16_abs">We present an unsupervised visual feature learning algorithm driven by context-based pixel prediction. By analogy with auto-encoders, we propose Context Encoders -- a convolutional neural network trained to generate the contents of an arbitrary image region conditioned on its surroundings. In order to succeed at this task, context encoders need to both understand the content of the entire image, as well as produce a plausible hypothesis for the missing part(s). When training context encoders, we have experimented with both a standard pixel-wise reconstruction loss, as well as a reconstruction plus an adversarial loss.  The latter produces much sharper results because it can better handle multiple modes in the output. We found that a context encoder learns a representation that captures not just appearance but also the semantics of visual structures. We quantitatively demonstrate the effectiveness of our learned features for CNN pre-training on classification, detection, and segmentation tasks. Furthermore, context encoders can be used for semantic inpainting tasks, either stand-alone or as initialization for non-parametric methods.</i></p>
+      <p align="justify"> <i id="predicting17_abs">Human computation games aim to apply human skill toward real-world problems through gameplay.  Such games may suffer from poor retention, potentially due to the constraints that using pre-existing problems place on game design. Previous work has proposed using player rating systems and matchmaking to balance the difficulty of human computation games, and explored the use of rating systems to predict the outcomes of player attempts at levels. However, these predictions were win/loss, which required setting a score threshold to determine if a player won or lost. This may be undesirable in human computation games, where what scores are possible may be unknown. In this work, we examined the use of rating systems for predicting scores, rather than win/loss, of player attempts at levels. We found that, except in cases with a narrow range of scores and little prior information on player performance, Glicko-2 performs favorably to alternative methods.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakCVPR16context,
-    Author = {Pathak, Deepak and
-    Kr\"ahenb\"uhl, Philipp and
-    Donahue, Jeff and
-    Darrell, Trevor and
-    Efros, Alexei A.},
-    Title = {Context Encoders:
-    Feature Learning by Inpainting},
-    Booktitle = {CVPR},
-    Year = {2016}
+@inproceedings{williams17predicting,
+    Author = {Williams, Michael and Sarkar, Anurag and Cooper, Seth},
+    Title = {Predicting Human Computation Game Scores with Player Rating Systems},
+    Booktitle = {ICEC},
+    Year = {2017}
 }
 </pre>
       </div>
@@ -661,41 +622,32 @@ function bubbleSortStep() {
     <td width="33%" valign="center"><a href="images/jmlr16.jpg"><img src="images/jmlr16.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><a href="papers/jmlr16.pdf" id="JMLR16">
-      <heading>Large Scale Visual Recognition through Adaptation using Joint Representation and Multiple Instance Learning</heading></a><br>
-      Judy Hoffman, <b>Deepak Pathak</b>, Eric Tzeng, Jonathan Long, Sergio Guadarrama, Trevor Darrell and Kate Saenko<br>
-      <!-- <em>Journal of Machine Learning Research (JMLR)</em>, 2016 -->
-      JMLR, 2016
+      <heading>Engagement Effects of Player Rating System-based Matchmaking for Level Ordering in Human Computation Games</heading></a><br>
+      <b>Anurag Sarkar</b>, Michael Williams, Sebastian Deterding, Seth Cooper<br>
+      FDG, 2017
       </p>
 
       <div class="paper" id="jmlr16">
       <a href="papers/jmlr16.pdf">pdf</a> |
-      <a href="javascript:toggleblock('jmlr16_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('jmlr16')" class="togglebib">bibtex</a> |
+      <a href="javascript:toggleblock('engagement17_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('engagement17')" class="togglebib">bibtex</a> |
       <a href="http://jmlr.org/papers/volume17/15-223/15-223.pdf">jmlr</a>
 
-      <p align="justify"> <i id="jmlr16_abs">A major barrier towards scaling visual recognition systems is the difficulty of obtaining labeled images for large numbers of categories. Recently, deep convolutional neural networks (CNNs) trained used 1.2M+ labeled images have emerged as clear winners on object classification benchmarks. Unfortunately, only a small fraction of those labels are available with bounding box localization for training the detection task and even fewer pixel level annotations are available for semantic segmentation. It is much cheaper and easier to collect large quantities of image-level labels from search engines than it is to collect scene-centric images with precisely localized labels. We develop methods for learning large scale recognition models which exploit joint training over both weak (image-level) and strong (bounding box) labels and which transfer learned perceptual representations from strongly-labeled auxiliary tasks. We provide a novel formulation of a joint multiple instance learning method that includes examples from object-centric data with image-level labels when available, and also performs domain transfer learning to improve the underlying detector representation. We then show how to use our large scale detectors to produce pixel level annotations. Using our method, we produce a >7.6K category detector and release code and models at <a href="http://lsda.berkeleyvision.org/">lsda.berkeleyvision.org</a>.</i></p>
+      <p align="justify"> <i id="engagement17_abs">Human computation games lack established ways of balancing the difficulty of tasks or levels served to players, potentially contributing to their low engagement rates. Traditional player rating systems have been suggested as a potential solution: using them to rate both players and tasks could estimate player skill and task difficulty and fuel player-task matchmaking. However, neither the effect of difficulty balancing on engagement in human computation games nor the use of player rating systems for this purpose has been empirically tested. We therefore examined the engagement effects of using the Glicko-2 player rating system to order tasks in the human computation game \textit{Paradox}. An online experiment (n=294) found that both matchmaking-based and pure difficulty-based ordering of tasks led to significantly more attempted and completed levels than random ordering. Additionally, both matchmaking and random ordering led to significantly more difficult tasks being completed than pure difficulty-based ordering. We conclude that poor balancing contributes to poor engagement in human computation games, and that player rating system-based difficulty rating may be a viable and efficient way of improving both.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{pathakJMLR16,
-    Author = {Hoffman, Judy and
-    Pathak, Deepak and
-    Tzeng, Eric and
-    Long, Jonathan and
-    Guadarrama, Sergio and
-    Darrell, Trevor and
-    Saenko, Kate},
-    Title = {Large Scale Visual Recognition
-    through Adaptation using Joint
-    Representation and Multiple Instance
-    Learning},
-    Booktitle = {JMLR},
-    Year = {2016}
+@inproceedings{sarkar2017engagement,
+    Author = {Sarkar, Anurag and Williams, Michael and Deterding, Sebastian and Cooper, Seth},
+    Title = {Engagement Effects of Player Rating System-based Matchmaking for Level Ordering in Human Computation Games},
+    Booktitle = {FDG},
+    Year = {2017}
 }
 </pre>
       </div>
     </td>
   </tr>
 
+	<!--
   <tr>
     <td width="33%" valign="top"><a href="images/iccv15.png"><img src="images/iccv15.png" alt="sym" width="90%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -737,8 +689,6 @@ function bubbleSortStep() {
       <p><a href="papers/cvpr15.pdf" id="CVPR15">
       <heading>Detector Discovery in the Wild: Joint Multiple Instance and Representation Learning</heading></a><br>
       Judy Hoffman, <b>Deepak Pathak</b>, Trevor Darrell and Kate Saenko<br>
-      CVPR, 2015 <!-- <strong style="color:red">(Oral)</strong><br>
-              <strong style="color:red">Best Student Paper Award</strong> -->
       <br></p>
 
       <div class="paper" id="cvpr15">
@@ -939,7 +889,7 @@ function bubbleSortStep() {
     </td>
   </tr>
 </table>
-
+-->
     <!--
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
   <tr><td><sectionheading>&nbsp;&nbsp;Teaching</sectionheading></td></tr>
@@ -1010,34 +960,34 @@ hideblock('jmlr16_abs');
 hideblock('cvpr16_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('iclr16_abs');
+hideblock('engagement17_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('cvpr17_abs');
+hideblock('predicting17_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('icml17_abs');
+hideblock('level17_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('nips17_abs');
+hideblock('meet18_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('iclr18_abs');
+hideblock('comparing18_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('icml18_abs');
+hideblock('desire18_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('cvprw18_abs');
+hideblock('blending18_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('iclr19_abs');
+hideblock('inferring19_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('assemblies19_abs');
+hideblock('arrays19_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('compgan18_abs');
+hideblock('transforming19_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('controllable19_abs');
