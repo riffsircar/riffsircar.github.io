@@ -190,12 +190,12 @@ function bubbleSortStep() {
   <tr>
     <td width="100%" valign="top"><!-- <a href="images/aumingi.jpg"><img src="images/aumingi.jpg" width="100%" style="border-radius:15px"></a> -->
     <p align=center>
-    | <a href="assets/files/CV.pdf">CV</a> |
+    | <a href="assets/CV.pdf" target="_blank">CV</a> |
     <!-- <a href="bio.text" target="_blank">Bio</a> | -->
-    <a href="https://scholar.google.com/citations?hl=en&user=VVnRDggAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> | <!-- |<br/>| -->
+    <a href="https://scholar.google.com/citations?hl=en&user=VVnRDggAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a> | <!-- |<br/>| -->
     <!-- <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-132.pdf">Phd Thesis</a> | -->
-    <a href="https://github.com/riffsircar">Github</a> |
-    <a href="https://twitter.com/riffsircar">Twitter</a> |
+    <a href="https://github.com/riffsircar" target="_blank">Github</a> |
+    <a href="https://twitter.com/riffsircar" target="_blank">Twitter</a> |
     </p>
     </td>
 	</tr>
@@ -230,7 +230,7 @@ function bubbleSortStep() {
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
   <tr>
-    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2019game.png" alt="sym" width="90%" style="border-radius:15px"></td>
+    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2019game.png" alt="sym" width="90%" height="75%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Game Design using Creative AI</heading><br>
       <b>Anurag Sarkar</b><br>
@@ -250,7 +250,9 @@ function bubbleSortStep() {
 @inproceedings{sarkar19game,
   Author = {Sarkar, Anurag},
   Title = {Game Design using Creative AI},
-  Booktitle = {NeurIPS 2019 Workshop on Machine Learning for Creativity and Design},
+  Booktitle = {NeurIPS 2019 Workshop on 
+  Machine Learning for Creativity and 
+  Design},
   Year = {2019}
 }
 </pre>
@@ -259,7 +261,7 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2019disjoint.png" alt="sym" width="90%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2019disjoint.png" alt="sym" width="90%" height="20%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p><heading>Using a Disjoint Skill Model for Game and Task Difficulty in Human Computation Games</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
@@ -278,8 +280,10 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar19disjoint,
   Author = {Sarkar, Anurag and Cooper, Seth},
-  Title = {Using a Disjoint Skill Model for Game and Task Difficulty in Human Computation Games},
-  Booktitle = {Proceedings of the 2019 Annual Symposium on Computer-Human Interaction in Play},
+  Title = {Using a Disjoint Skill Model for 
+  Game and Task Difficulty in Human Computation Games},
+  Booktitle = {Proceedings of the 2019 Annual 
+  Symposium on Computer-Human Interaction in Play},
   Year = {2019}
 }
 </pre>
@@ -288,7 +292,7 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2019controllable.png" alt="sym" width="90%" style="border-radius:15px"></td>
+    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2019controllable.png" alt="sym" width="90%" height="75%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Controllable Level Blending between Games using Variational Autoencoders</heading><br>
       <b>Anurag Sarkar</b>, Zhihan Yang, Seth Cooper<br>
@@ -303,13 +307,16 @@ function bubbleSortStep() {
       <!-- <a href="https://videoken.com/embed/D0UmVbbJxS8?tocitem=89">oral talk</a> | -->
       <a href="assets/slides/sarkar2019controllable_slides.pdf">slides</a>
       
-      <p align="justify"> <i id="controllable19_abs">Previous work explored blending levels from existing games to create levels for a new game that mixes properties of the original games. In this paper, we use Variational Autoencoders (VAEs) for improving upon such techniques. VAEs are artificial neural networks that learn and use latent representations of datasets to generate novel outputs. We train a VAE on level data from \textit{Super Mario Bros.} and \textit{Kid Icarus}, enabling it to capture the latent space spanning both games. We then use this space to generate level segments that combine properties of levels from both games. Moreover, by applying evolutionary search in the latent space, we evolve level segments satisfying specific constraints. We argue that these affordances make the VAE-based approach especially suitable for co-creative level design and compare its performance with similar generative models like the GAN and the VAE-GAN.</i></p>
+      <p align="justify"> <i id="controllable19_abs">Previous work explored blending levels from existing games to create levels for a new game that mixes properties of the original games. In this paper, we use Variational Autoencoders (VAEs) for improving upon such techniques. VAEs are artificial neural networks that learn and use latent representations of datasets to generate novel outputs. We train a VAE on level data from Super Mario Bros. and Kid Icarus, enabling it to capture the latent space spanning both games. We then use this space to generate level segments that combine properties of levels from both games. Moreover, by applying evolutionary search in the latent space, we evolve level segments satisfying specific constraints. We argue that these affordances make the VAE-based approach especially suitable for co-creative level design and compare its performance with similar generative models like the GAN and the VAE-GAN.</i></p>
 
 <pre xml:space="preserve">
 @inproceedings{sarkar19controllable,
-  Author = {Sarkar, Anurag and Yang, Zhihan and Cooper, Seth},
-  Title = {Controllable Level Blending between Games using Variational Autoencoders},
-  Booktitle = {Proceedings of the EXAG Workshop at AIIDE},
+  Author = {Sarkar, Anurag and Yang, Zhihan 
+  and Cooper, Seth},
+  Title = {Controllable Level Blending between 
+  Games using Variational Autoencoders},
+  Booktitle = {Proceedings of the EXAG Workshop 
+  at AIIDE},
   Year = {2019}
 }
 </pre>
@@ -318,7 +325,7 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2019rating.png" alt="sym" width="90%" style="border-radius:15px"></td>
+    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2019rating.png" alt="sym" width="90%" height="50%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Using Rating Arrays to Estimate Score Distributions for Player-versus-Level Matchmaking</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
@@ -338,8 +345,11 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar19arrays,
   Author = {Sarkar, Anurag and Cooper, Seth},
-  Title = {Using Rating Arrays to Estimate Score Distributions for Player-versus-Level Matchmaking},
-  Booktitle = {Proceedings of the Foundations of Digital Games},
+  Title = {Using Rating Arrays to Estimate 
+  Score Distributions for Player-versus-Level 
+  Matchmaking},
+  Booktitle = {Proceedings of the 
+  Foundations of Digital Games},
   Year = {2019}
 }
 </pre>
@@ -368,8 +378,11 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar19inferring,
       Author = {Sarkar, Anurag and Cooper, Seth},
-      Title = {Inferring and Comparing Game Difficulty Curves using Player-versus-Level Match Data},
-      Booktitle = {Proceedings of the IEEE Conference on Games},
+      Title = {Inferring and Comparing Game 
+	  Difficulty Curves using Player-versus-Level 
+	  Match Data},
+      Booktitle = {Proceedings of the IEEE 
+	  Conference on Games},
       Year = {2019}
   }
 </pre>
@@ -378,7 +391,7 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2019transforming.png" alt="sym" width="90%" style="border-radius:15px"></td>
+    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2019transforming.png" alt="sym" width="90%" height="30%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Transforming Game Difficulty Curves using Function Composition</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
@@ -398,8 +411,10 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar19transforming,
   Author = {Sarkar, Anurag and Cooper, Seth},
-  Title = {Transforming Game Difficulty Curves using Function Composition},
-  Booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing},
+  Title = {Transforming Game Difficulty Curves 
+  using Function Composition},
+  Booktitle = {Proceedings of the SIGCHI 
+  Conference on Human Factors in Computing},
   Year = {2019}
 }
 </pre>
@@ -408,7 +423,7 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="center" align="center"><a href="http://pathak22.github.io/zeroshot-imitation/"><img src="images/iclr18_1.gif" alt="sym" width="65%" border="1" style="border-color:black"><hr style="height:0pt; visibility:hidden; margin:0"/><img src="images/iclr18_2.gif" alt="sym" width="65%" border="1" style="border-color:black"></a></td>
+    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2018blending.png" alt="sym" width="90%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Blending Levels from Different Games using LSTMs</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
@@ -416,13 +431,12 @@ function bubbleSortStep() {
       </p>
 
       <div class="paper" id="blending18">
-      <a href="http://pathak22.github.io/zeroshot-imitation/resources/iclr18.pdf">pdf</a> |
+      <a href="assets/pdfs/sarkar2018blending.pdf">pdf</a> |
       <a href="javascript:toggleblock('blending18_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('blending18')" class="togglebib">bibtex</a> |
-      <a href="https://arxiv.org/abs/1804.08606" target="_blank">arXiv</a> |
-      <a href="http://pathak22.github.io/zeroshot-imitation/index.html#sourceCode">code</a> |
-      <a href="http://pathak22.github.io/zeroshot-imitation/index.html#demoVideos">oral talk</a> |
-      <a href="https://www.dropbox.com/s/36efg1t3qn6i495/2018_04_ZeroShotImitation.pptx">slides</a>
+      <!-- <a href="https://arxiv.org/abs/1804.08606" target="_blank">arXiv</a> | -->
+      <a href="https://github.com/riffsircar/Blending">code</a> |
+      <a href="assets/slides/sarkar2018blending_slides.pdf">slides</a>
       <br>
 
       <p align="justify"> <i id="blending18_abs">Recent work has shown machine learning approaches to be effective in training models on existing game data for informing procedural generation of novel content. Specifically, ML techniques have successfully used existing game levels to train models for generating new levels and blending existing ones. Such blending of not just levels, but entire games, has also been proposed as a possible means of generating new games. In this paper, we build on these works by training Long Short Term Memory recurrent neural networks on level data for two separate platformer games---\textit{Super Mario Bros.} and \textit{Kid Icarus}---and use these models to create new levels that are blends of levels from both games, thus creating a level generator for a novel, third game.</i></p>
@@ -430,8 +444,10 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar18blending,
     Author = {Sarkar, Anurag and Cooper, Seth},
-    Title = {Blending Levels from Different Games using LSTMs},
-    Booktitle = {Proceedings of the EXAG Workshop at AIIDE},
+    Title = {Blending Levels from Different 
+	Games using LSTMs},
+    Booktitle = {Proceedings of the Experimental 
+	AI in Games (EXAG) Workshop at AIIDE},
     Year = {2018}
 }
 </pre>
@@ -440,7 +456,7 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="center" align="center"><a href="https://rach0012.github.io/humanRL_website/"><img src="images/icml18.png" alt="sym" width="90%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2018desire.png" alt="sym" width="90%" height="15%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Desire Path-inspired Procedural Placement of Coins in a Platformer Game</heading><br>
       <b>Anurag Sarkar</b>, Varun Sriram, Riddhi Padte, Jeffrey Cao, Seth Cooper<br>
@@ -448,21 +464,25 @@ function bubbleSortStep() {
       </p>
 
       <div class="paper" id="desire18">
-      <a href="papers/icml18.pdf">pdf</a> |
+      <a href="assets/pdfs/sarkar2018desire.pdf">pdf</a> |
       <a href="javascript:toggleblock('desire18_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('desire18')" class="togglebib">bibtex</a> |
-      <a href="https://arxiv.org/abs/1802.10217">arXiv</a> |
-      <a href="https://youtu.be/Ol0-c9OE3VQ" target="_blank">oral talk</a> |
-      <a href="https://youtu.be/Ol0-c9OE3VQ" target="_blank">slides</a>
+      <!-- <a href="https://arxiv.org/abs/1802.10217">arXiv</a> | -->
+      <!-- <a href="https://youtu.be/Ol0-c9OE3VQ" target="_blank">oral talk</a> | -->
+      <a href="assets/slides/sarkar2018desire_slides.pdf" target="_blank">slides</a>
       <br>
 
       <p align="justify"> <i id="desire18_abs">Many games feature collectible items that are manually placed by a designer. In this work, we developed an algorithm, inspired by \emph{desire paths}, for automatically placing collectible coins in a platformer game. Desire paths are paths naturally formed where people walk, rather than those laid down artificially, and are often the shortest or easiest route between an origin and destination. Our algorithm uses player trajectories to find paths along which to place the coins for each level. We ran an experiment comparing path-based placement to other placement methods. Although we did not find a difference in total time spent playing or likelihood of finishing the game, our results suggest that path-based placement leads to players collecting more coins in less time than with designer or randomly placed coins. Further, we found that players played similarly when coins were either path-based or there were no coins, and similarly when coins were either placed by a designer or randomly.</i></p>
 
 <pre xml:space="preserve">
 @inproceedings{sarkar18desire,
-    Author = {Sarkar, Anurag and Sriram, Varun and Padte, Riddhi and Cao, Jeffrey and Cooper, Seth},
-    Title = {Desire Path-inspired Procedural Placement of Coins in a Platformer Game},
-    Booktitle = {Proceedings of the Experimental AI in Games Workshop at AIIDE},
+    Author = {Sarkar, Anurag and Sriram, Varun 
+	and Padte, Riddhi and Cao, Jeffrey and 
+	Cooper, Seth},
+    Title = {Desire Path-inspired Procedural 
+	Placement of Coins in a Platformer Game},
+    Booktitle = {Proceedings of the Experimental 
+	AI in Games (EXAG) Workshop at AIIDE},
     Year = {2018}
 }
 </pre>
@@ -471,18 +491,18 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="center" align="center"><a href="http://pathak22.github.io/noreward-rl/"><img src="images/icml17_1.gif" alt="sym" width="49%" style="border-radius:15px">&nbsp;<img src="images/icml17_2.gif" alt="sym" width="49%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2018comparing.jpg" alt="sym" width="90%" height="10%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Comparing Paid and Volunteer Recruitment in Human Computation Games</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
       Foundations of Digital Games (FDG), 2018<br>
       </p>
-      <div class="paper" id="icml17">
-      <a href="http://pathak22.github.io/noreward-rl/resources/icml17.pdf">pdf</a> |
+      <div class="paper" id="comparing18">
+      <a href="assets/pdfs/sarkar2018comparing.pdf">pdf</a> |
       <a href="javascript:toggleblock('comparing18_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('comparing18')" class="togglebib">bibtex</a> |
-      <a href="https://arxiv.org/abs/1705.05363">arXiv</a> |
-      <a href="http://pathak22.github.io/noreward-rl/index.html#media">slides</a>
+      <!-- <a href="https://arxiv.org/abs/1705.05363">arXiv</a> | -->
+      <a href="assets/slides/sarkar2018comparing_slides.pdf">slides</a>
       <br/>
 
       <p align="justify"> <i id="comparing18_abs">Paid platforms like Mechanical Turk are popular for recruiting players for playtesting and experiments. However, it is unclear if paid players have similar behavior or experiences as volunteers (i.e. players recruited for free through banner ads or game portals). In this work, we studied the impact of recruitment within human computation games, using two experiments. First, we compared voluntary recruitment versus paid recruitment with different compensation levels. We found that the highest paid players completed more levels (i.e. achieved a higher \textit{volume} of completed tasks) and reported greater engagement than both volunteers and players paid less while volunteers completed levels of higher difficulty (i.e. achieved a higher \textit{quality} of completed tasks) than paid players. Additionally, we also varied both recruitment strategy and the game's design and found no interaction effects, suggesting that while differences exist between volunteer and paid players, experimental changes do not impact those players differently.</i></p>
@@ -490,8 +510,10 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar18comparing,
     Author = {Sarkar, Anurag and Cooper, Seth},
-    Title = {Comparing Paid and Volunteer Recruitment in Human Computation Games},
-    Booktitle = {Proceedings of the Foundations of Digital Games},
+    Title = {Comparing Paid and Volunteer 
+	Recruitment in Human Computation Games},
+    Booktitle = {Proceedings of the 
+	Foundations of Digital Games},
     Year = {2018}
 }</pre>
       </div>
@@ -499,19 +521,19 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="center" align="center"><a href="https://junyanz.github.io/BicycleGAN"><img src="images/nips17.gif" alt="sym" width="90%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="center" align="center"><img src="assets/thumbs/sarkar2018meet.jpg" alt="sym" width="90%" height="10%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Meet your Match Rating: Providing Skill Information and Choice in Player-versus-Level Matchmaking</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
       Foundations of Digital Games (FDG), 2018
       </p>
 
-      <div class="paper" id="nips17">
-      <a href="papers/nips17.pdf">pdf</a> |
+      <div class="paper" id="meet18">
+      <a href="assets/pdfs/sarkar2018meet.pdf">pdf</a> |
       <a href="javascript:toggleblock('meet18_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('meet18')" class="togglebib">bibtex</a> |
-      <a href="https://arxiv.org/abs/1711.11586">arXiv</a> |
-      <a href="https://github.com/junyanz/BicycleGAN">slides</a>
+      <!-- <a href="https://arxiv.org/abs/1711.11586">arXiv</a> | -->
+      <a href="assets/slides/sarkar2018meet_slides.pdf">slides</a>
       <br>
 
       <p align="justify"> <i id="meet18_abs">Previous work has demonstrated the effectiveness of rating system-based matchmaking for level ordering within the particular constraints of human computation games. However, players were not informed about the rating system, nor allowed to choose the difficulty of upcoming levels. Informing players of the ratings used in the system and offering them choice of upcoming level difficulty may enhance feelings of competence and control respectively, thereby further improving player engagement. Thus, we attempted to improve player experience by both exposing players to the underlying rating system, as well as offering them choice of level difficulty. We found that players cognizant of ratings both attempted and completed more levels than those who were not. Though additionally offering choice did not significantly affect behavior, we found that player choice was influenced by the outcome of the preceding level. Moreover, we did not observe any significant impact on self-reported measures of subjective experience.</i></p>
@@ -519,8 +541,11 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar18meet,
     Author = {Sarkar, Anurag and Cooper, Seth},
-    Title = {Meet your Match Rating: Providing Skill Information and Choice in Player-versus-Level Matchmaking},
-    Booktitle = {Proceedings of the Foundations of Digital Games},
+    Title = {Meet your Match Rating: Providing 
+	Skill Information and Choice in 
+	Player-versus-Level Matchmaking},
+    Booktitle = {Proceedings of the Foundations 
+	of Digital Games},
     Year = {2018}
 }
 </pre>
@@ -529,19 +554,19 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="top" align="center"><a href="unsupervised_video/"><img src="images/cvpr17.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2017level.png" alt="sym" width="90%" border="1" height="20%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Level Difficulty and Player Skill Prediction in Human Computation Games</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
       AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), 2017
       </p>
 
-      <div class="paper" id="cvpr17">
-      <a href="papers/cvpr17.pdf">pdf</a> |
+      <div class="paper" id="level17">
+      <a href="assets/pdfs/sarkar2017level.pdf">pdf</a> |
       <a href="javascript:toggleblock('level17_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('level17')" class="togglebib">bibtex</a> |
-      <a href="https://arxiv.org/abs/1612.06370">arXiv</a> |
-      <a href="unsupervised_video/index.html#sourceCode">poster</a>
+      <!-- <a href="https://arxiv.org/abs/1612.06370">arXiv</a> | -->
+      <a href="assets/posters/sarkar2017level_poster.pdf">poster</a>
       <br>
       
       <p align="justify"> <i id="level17_abs">Human computation games (HCGs) often suffer from low player retention. This may be due to the constraints placed on level and game design from the real-world application of the game. Previous work has suggested using player rating systems (such as Elo, Glicko-2, or TrueSkill) as a basis for matchmaking between HCG levels and players, as a means to improve difficulty balancing and thus player retention. Such rating systems typically start incoming entities with a default rating.  However, when applied to HCGs, incoming entities may have useful information associated with them, such as player behavior during tutorials and properties of the tasks underlying the levels.  In this work, we examined using features derived from player behavior and level properties to predict their eventual Glicko-2 ratings in the HCG \game{Paradox}. We found that using regression produced rating estimates closer to the actual ratings than default or baseline average ratings. The use of rating systems allows a unified approach to predicting both player skill and level difficulty.</i></p>
@@ -549,8 +574,11 @@ function bubbleSortStep() {
 <pre xml:space="preserve">
 @inproceedings{sarkar17level,
     Author = {Sarkar, Anurag and Cooper, Seth},
-    Title = {Level Difficulty and Player Skill Prediction in Human Computation Games},
-    Booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment},
+    Title = {Level Difficulty and Player Skill 
+	Prediction in Human Computation Games},
+    Booktitle = {Proceedings of the AAAI Conference 
+	on Artificial Intelligence and Interactive 
+	Digital Entertainment},
     Year = {2017}
 }
 </pre>
@@ -559,26 +587,29 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="top" align="center"><a href="context_encoder/"><img src="images/cvpr16.jpg" alt="sym" width="75%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="top" align="center"><img src="assets/thumbs/williams2017predicting.jpg" alt="sym" width="90%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Predicting Human Computation Game Scores with Player Rating Systems</heading><br>
       Michael Williams, <b>Anurag Sarkar</b>, Seth Cooper<br>
       International Conference on Entertainment Computing (ICEC), 2017
       </p>
 
-      <div class="paper" id="cvpr16">
-      <a href="papers/cvpr16.pdf">pdf</a> |
+      <div class="paper" id="predicting17">
+      <a href="assets/pdfs/williams2017predicting.pdf">pdf</a> |
       <a href="javascript:toggleblock('predicting17_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('predicting17')" class="togglebib">bibtex</a> |
-      <a href="https://arxiv.org/abs/1604.07379">arXiv</a>
+      <a shape="rect" href="javascript:togglebib('predicting17')" class="togglebib">bibtex</a>
+      <!-- <a href="https://arxiv.org/abs/1604.07379">arXiv</a> -->
 
       <p align="justify"> <i id="predicting17_abs">Human computation games aim to apply human skill toward real-world problems through gameplay.  Such games may suffer from poor retention, potentially due to the constraints that using pre-existing problems place on game design. Previous work has proposed using player rating systems and matchmaking to balance the difficulty of human computation games, and explored the use of rating systems to predict the outcomes of player attempts at levels. However, these predictions were win/loss, which required setting a score threshold to determine if a player won or lost. This may be undesirable in human computation games, where what scores are possible may be unknown. In this work, we examined the use of rating systems for predicting scores, rather than win/loss, of player attempts at levels. We found that, except in cases with a narrow range of scores and little prior information on player performance, Glicko-2 performs favorably to alternative methods.</i></p>
 
 <pre xml:space="preserve">
 @inproceedings{williams17predicting,
-    Author = {Williams, Michael and Sarkar, Anurag and Cooper, Seth},
-    Title = {Predicting Human Computation Game Scores with Player Rating Systems},
-    Booktitle = {ICEC},
+    Author = {Williams, Michael and Sarkar, 
+	Anurag and Cooper, Seth},
+    Title = {Predicting Human Computation 
+	Game Scores with Player Rating Systems},
+    Booktitle = {Proceedings of the International
+	Conference on Entertainment Computing (ICEC)},
     Year = {2017}
 }
 </pre>
@@ -587,7 +618,7 @@ function bubbleSortStep() {
   </tr>
 
   <tr>
-    <td width="33%" valign="center"><a href="images/jmlr16.jpg"><img src="images/jmlr16.jpg" alt="sym" width="90%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2017engagement.png" alt="sym" width="90%" border="1" height="60%" style="border-radius:15px"></td>
     <td width="67%" valign="top">
       <p><heading>Engagement Effects of Player Rating System-based Matchmaking for Level Ordering in Human Computation Games</heading><br>
       <b>Anurag Sarkar</b>, Michael Williams, Sebastian Deterding, Seth Cooper<br>
@@ -595,19 +626,23 @@ function bubbleSortStep() {
       <b><i>Best Paper Honorable Mention</i></b>
       </p>
 
-      <div class="paper" id="jmlr16">
-      <a href="papers/jmlr16.pdf">pdf</a> |
+      <div class="paper" id="engagement17">
+      <a href="assets/pdfs/sarkar2017engagement.pdf">pdf</a> |
       <a href="javascript:toggleblock('engagement17_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('engagement17')" class="togglebib">bibtex</a> |
-      <a href="http://jmlr.org/papers/volume17/15-223/15-223.pdf">slides</a>
+      <a href="assets/slides/sarkar2017engagement_slides.pdf">slides</a>
 
       <p align="justify"> <i id="engagement17_abs">Human computation games lack established ways of balancing the difficulty of tasks or levels served to players, potentially contributing to their low engagement rates. Traditional player rating systems have been suggested as a potential solution: using them to rate both players and tasks could estimate player skill and task difficulty and fuel player-task matchmaking. However, neither the effect of difficulty balancing on engagement in human computation games nor the use of player rating systems for this purpose has been empirically tested. We therefore examined the engagement effects of using the Glicko-2 player rating system to order tasks in the human computation game \textit{Paradox}. An online experiment (n=294) found that both matchmaking-based and pure difficulty-based ordering of tasks led to significantly more attempted and completed levels than random ordering. Additionally, both matchmaking and random ordering led to significantly more difficult tasks being completed than pure difficulty-based ordering. We conclude that poor balancing contributes to poor engagement in human computation games, and that player rating system-based difficulty rating may be a viable and efficient way of improving both.</i></p>
 
 <pre xml:space="preserve">
 @inproceedings{sarkar2017engagement,
-    Author = {Sarkar, Anurag and Williams, Michael and Deterding, Sebastian and Cooper, Seth},
-    Title = {Engagement Effects of Player Rating System-based Matchmaking for Level Ordering in Human Computation Games},
-    Booktitle = {FDG},
+    Author = {Sarkar, Anurag and Williams, Michael 
+	and Deterding, Sebastian and Cooper, Seth},
+    Title = {Engagement Effects of Player Rating 
+	System-based Matchmaking for Level Ordering in 
+	Human Computation Games},
+    Booktitle = {Proceedings of the Foundations
+	of Digital Games},
     Year = {2017}
 }
 </pre>
@@ -895,7 +930,7 @@ function bubbleSortStep() {
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
     <tr><td><br><p align="right"><font size="2">
-    Template: <a href="http://www.cs.berkeley.edu/~barron/">this</a>, <a href="http://www.cs.berkeley.edu/~sgupta/">this</a> and <a href="http://jeffdonahue.com/">this</a>
+    Template: <a href="http://www.cs.berkeley.edu/~barron/">this</a>, <a href="http://www.cs.berkeley.edu/~sgupta/">this</a>, <a href="http://jeffdonahue.com/">this</a> and <a href="https://people.eecs.berkeley.edu/~pathak/">this</a>
     </font></p></td></tr>
 </table> 
   </td></tr>
