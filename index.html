@@ -231,21 +231,20 @@ function bubbleSortStep() {
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
 <tr>
-    <!-- <td width="0%" valign="top" align="center"><!-- <img src="assets/thumbs/sarkar2020evaluating.png" alt="" width="90%" height="75%" style="border-radius:15px"> </td>-->
-    <td colspan="2" width="100%" valign="top">
+    <td width="0%" valign="top" align="center"><img src="assets/thumbs/sarkar2020exploring.png" alt="" width="95%" height="10%" style="border-radius:15px"> </td>
+    <td width="67%" valign="top">
       <p><heading>Exploring Level Blending across Platformers via Paths and Affordances</heading><br>
       <b>Anurag Sarkar</b>, Adam Summerville, Sam Snodgrass, Gerard Bentley, Joseph Osborn<br>
       AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), 2020<br>
       </p>
 
       <div class="paper" id="exploring20">
-	  <!--
-      <a href="assets/pdfs/sarkar2020gdcml.pdf">pdf</a> |
-      <a href="javascript:toggleblock('gdcml20_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('gdcml20')" class="togglebib">bibtex</a> |
+      <a href="assets/pdfs/sarkar2020exploring.pdf">pdf</a> |
+      <a href="javascript:toggleblock('exploring20_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('exploring20')" class="togglebib">bibtex</a> |
 	  
-      <p align="justify"> <i id="gdcml20_abs">In recent years, machine learning (ML) systems have been increasingly applied for performing creative tasks. Such creative ML approaches have seen wide use in the domains of visual art and music for applications such as image and music generation and style transfer. However, similar creative ML techniques have not been as widely adopted in the domain of game design despite the emergence of ML-based methods for generating game content. In this paper, we argue for leveraging and repurposing such creative techniques for designing content for games, referring to these as approaches for Game Design via Creative ML (GDCML). We highlight existing systems that enable GDCML and illustrate how creative ML can inform new systems via example applications and a proposed system.</i></p>
-	  -->
+      <p align="justify"> <i id="exploring20_abs">Techniques for procedural content generation via machine learning (PCGML) have been shown to be useful for generating novel game content. While used primarily for producing new content in the style of the game domain used for training, recent works have increasingly started to explore methods for discovering and generating content in novel domains via techniques such as level blending and domain transfer. In this paper, we build on these works and introduce a new PCGML approach for producing novel game content spanning multiple domains. We use a new affordance and path vocabulary to encode data from six different platformer games and train variational autoencoders on this data, enabling us to capture the latent level space spanning all the domains and generate new content with varying proportions of the different domains.</i></p>
+	  
 
 <pre xml:space="preserve">
 @inproceedings{sarkar2020exploring,
@@ -264,25 +263,24 @@ function bubbleSortStep() {
 </tr>
 
 <tr>
-    <!-- <td width="0%" valign="top" align="center"><!-- <img src="assets/thumbs/sarkar2020evaluating.png" alt="" width="90%" height="75%" style="border-radius:15px"> </td>-->
-    <td colspan="2" width="100%" valign="top">
+    <td width="0%" valign="top" align="center"><img src="assets/thumbs/yang2020game.png" alt="" width="95%" height="7%" style="border-radius:15px"> </td>
+    <td width="67%" valign="top">
       <p><heading>Game Level Clustering and Generation using Gaussian Mixture VAEs</heading><br>
       Zhihan Yang, <b>Anurag Sarkar</b>, Seth Cooper<br>
       AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), 2020<br>
       </p>
 
       <div class="paper" id="gmvae20">
-	  <!--
-      <a href="assets/pdfs/sarkar2020gdcml.pdf">pdf</a> |
-      <a href="javascript:toggleblock('gdcml20_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('gdcml20')" class="togglebib">bibtex</a> |
+      <a href="assets/pdfs/yang2020game.pdf">pdf</a> |
+      <a href="javascript:toggleblock('gmvae20_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('gmvae20')" class="togglebib">bibtex</a> |
 	  
-      <p align="justify"> <i id="gdcml20_abs">In recent years, machine learning (ML) systems have been increasingly applied for performing creative tasks. Such creative ML approaches have seen wide use in the domains of visual art and music for applications such as image and music generation and style transfer. However, similar creative ML techniques have not been as widely adopted in the domain of game design despite the emergence of ML-based methods for generating game content. In this paper, we argue for leveraging and repurposing such creative techniques for designing content for games, referring to these as approaches for Game Design via Creative ML (GDCML). We highlight existing systems that enable GDCML and illustrate how creative ML can inform new systems via example applications and a proposed system.</i></p>
-	  -->
+      <p align="justify"> <i id="gmvae20_abs">Variational autoencoders (VAEs) have been shown to be able to generate game levels but require manual exploration of the learned latent space to generate outputs with desired attributes. While conditional VAEs address this by allowing generation to be conditioned on labels, such labels have to be provided during training and thus require prior knowledge which may not always be available. In this paper, we apply Gaussian Mixture VAEs (GMVAEs), a variant of the VAE which imposes a mixture of Gaussians (GM) on the latent space, unlike regular VAEs which impose a unimodal Gaussian. This allows GMVAEs to cluster levels in an unsupervised manner using the components of the GM and then generate new levels using the learned components. We demonstrate our approach with levels from Super Mario Bros., Kid Icarus and Mega Man. Our results show that the learned components discover and cluster level structures and patterns and can be used to generate levels with desired characteristics.</i></p>
 
 <pre xml:space="preserve">
 @inproceedings{yang2020game,
-  Author = {Yang, Zhihan and Sarkar, Anurag and Cooper, Seth},
+  Author = {Yang, Zhihan and Sarkar, Anurag and 
+  Cooper, Seth},
   Title = {Game Level Clustering and
   Generation using Gaussian Mixture VAEs},
   Booktitle = {Proceedings of the 
@@ -296,21 +294,20 @@ function bubbleSortStep() {
 </tr>
 
 <tr>
-    <!-- <td width="0%" valign="top" align="center"><!-- <img src="assets/thumbs/sarkar2020evaluating.png" alt="" width="90%" height="75%" style="border-radius:15px"> </td>-->
-    <td colspan="2" width="100%" valign="top">
+    <td width="33%" valign="top" align="center"><img src="assets/thumbs/sarkar2020evaluating.png" alt="" width="90%" height="25%" style="border-radius:15px"> </td>
+    <!-- <td colspan="2" width="100%" valign="top"> -->
+	<td width="67%" valign="top">
       <p><heading>Evaluating and Comparing Skill Chains and Rating Systems for Dynamic Difficulty Adjustment</heading><br>
       <b>Anurag Sarkar</b>, Seth Cooper<br>
       AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), 2020<br>
       </p>
 
       <div class="paper" id="evaluating20">
-	  <!--
-      <a href="assets/pdfs/sarkar2020gdcml.pdf">pdf</a> |
-      <a href="javascript:toggleblock('gdcml20_abs')">abstract</a> |
-      <a shape="rect" href="javascript:togglebib('gdcml20')" class="togglebib">bibtex</a> |
+      <a href="assets/pdfs/sarkar2020evaluating.pdf">pdf</a> |
+      <a href="javascript:toggleblock('evaluating20_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('evaluating20')" class="togglebib">bibtex</a> |
 	  
-      <p align="justify"> <i id="gdcml20_abs">In recent years, machine learning (ML) systems have been increasingly applied for performing creative tasks. Such creative ML approaches have seen wide use in the domains of visual art and music for applications such as image and music generation and style transfer. However, similar creative ML techniques have not been as widely adopted in the domain of game design despite the emergence of ML-based methods for generating game content. In this paper, we argue for leveraging and repurposing such creative techniques for designing content for games, referring to these as approaches for Game Design via Creative ML (GDCML). We highlight existing systems that enable GDCML and illustrate how creative ML can inform new systems via example applications and a proposed system.</i></p>
-	  -->
+      <p align="justify"> <i id="evaluating20_abs">Skill chains define how in-game skills build on each other and the order in which players ideally acquire them during gameplay. This can enable dynamic difficulty adjustment (DDA) by serving levels based on the skills that players currently have and those required to solve a given level. Similarly, DDA can also be achieved by using rating systems to match players with suitable levels by assigning ratings to players and levels based on ability and difficulty respectively. However, the relative effects of these two methods remain unclear, particularly in the context of human computation games (HCGs). In this paper, we present a general model for using skill chains and rating systems in a combined DDA system along with an evaluation comparing the two for difficulty balancing within HCGs, focusing on the relative merits of both methods when used separately as well as together. We evaluate our methods using the HCGs Iowa James and Paradox. Our findings suggest that incorporating skill chains can improve upon previously shown benefits of using only rating systems for DDA in HCGs.</i></p>
 
 <pre xml:space="preserve">
 @inproceedings{sarkar2020evaluating,
@@ -935,7 +932,13 @@ hideblock('gdcml20_abs');
 hideblock('sequential20_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('evalauating20_abs');
+hideblock('evaluating20_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('gmvae20_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('exploring20_abs');
 </script>
 </body>
 
