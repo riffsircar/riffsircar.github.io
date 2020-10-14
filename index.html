@@ -231,28 +231,101 @@ function bubbleSortStep() {
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
 <tr>
-<td colspan="2" width="100%" valign="top"> 
+<!-- <td colspan="2" width="100%" valign="top"> -->
+<td width="0%" valign="top" align="center"><img src="assets/thumbs/sarkar2020conditional.png" alt="" width="100%" height="100%" style="border-radius:15px"> </td>
+    <td width="67%" valign="top">
 <p><heading>Conditional Level Generation and Game Blending</heading><br>
       <b>Anurag Sarkar</b>, Zhihan Yang, Seth Cooper<br>
       AIIDE Workshop on Experimental AI in Games (EXAG), 2020<br>
       </p>
+	  
+	  <div class="paper" id="conditional20">
+      <a href="assets/pdfs/sarkar2020conditional.pdf">pdf</a> |
+      <a href="javascript:toggleblock('conditional20_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('conditional20')" class="togglebib">bibtex</a> |
+	  
+      <p align="justify"> <i id="conditional20_abs">Prior research has shown variational autoencoders (VAEs) to be useful for generating and blending game levels by learning latent representations of existing level data. We build on such models by exploring the level design affordances and applications enabled by conditional VAEs (CVAEs). CVAEs augment VAEs by allowing them to be trained using labeled data, thus enabling outputs to be generated conditioned on some input. We studied how increased control in the level generation process and the ability to produce desired outputs via training on labeled game level data could build on prior PCGML methods. Through our results of training CVAEs on levels from Super Mario Bros., Kid Icarus and Mega Man, we show that such models can assist in level design by generating levels with desired level elements and patterns as well as producing blended levels with desired combinations of games.</i></p>
+	  
+
+<pre xml:space="preserve">
+@inproceedings{sarkar2020conditional,
+  Author = {Sarkar, Anurag and Yang, Zhihan and
+  Cooper, Seth},
+  Title = {Conditional Level Generation and
+  Game Blending},
+  Booktitle = {Proceedings of the 
+  Experimental AI in Games (EXAG)
+  Workshop at AIIDE},
+  Year = {2020}
+}
+</pre>
+      </div>
+    </td>
 </tr>
 
 
 <tr>
-<td colspan="2" width="100%" valign="top"> 
+<!-- <td colspan="2" width="100%" valign="top"> -->
+<td width="0%" valign="top" align="center"><img src="assets/thumbs/cooper2020pathfinding.png" alt="" width="95%" height="40%" style="border-radius:15px"> </td>
+<td width="67%" valign="top">
 <p><heading>Pathfinding Agents for Platformer Level Repair</heading><br>
       Seth Cooper, <b>Anurag Sarkar</b><br>
       AIIDE Workshop on Experimental AI in Games (EXAG), 2020<br>
       </p>
+	  
+	  <div class="paper" id="pathfinding20">
+      <a href="assets/pdfs/cooper2020pathfinding.pdf">pdf</a> |
+      <a href="javascript:toggleblock('pathfinding20_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('pathfinding20')" class="togglebib">bibtex</a> |
+	  
+      <p align="justify"> <i id="pathfinding20_abs">A key concern for procedural level generation is ensuring that generated levels are in fact playable. One approach for determining playability is using pathfinding agents to test if generated levels can be completed. This typically involves following an iterative loop of generating candidate levels until the agent is able to successfully complete a playthrough, discarding the failed level and starting the generation process over each time the agent fails. In this paper, we present a new approach for generating playable levels that leverages pathfinding agents, not to simply test levels for playability, but to perform level repair to fix generated levels that are unplayable. By augmenting a simple pathfinding agent to be able to take moves that would require modifying the level, our approach can fix unplayable levels without having to regenerate a new level from scratch. We compared our repair agent to a default agent on three PCGML level generators each for Super Mario Bros. and Kid Icarus, and found the repair agent was able to fix the majority of levels, taking time that ranged from similar to the default agent to around 4x its time. </i></p>
+	  
+
+<pre xml:space="preserve">
+@inproceedings{cooper2020pathfinding,
+  Author = {Cooper,Seth and Sarkar, Anurag},
+  Title = {Pathfinding Agents for
+  Platformer Level Repair},
+  Booktitle = {Proceedings of the 
+  Experimental AI in Games (EXAG)
+  Workshop at AIIDE},
+  Year = {2020}
+}
+</pre>
+      </div>
+    </td>
 </tr>
 
 <tr>
-<td colspan="2" width="100%" valign="top"> 
+<td width="0%" valign="top" align="center"><img src="assets/thumbs/summerville2020extracting.png" alt="" width="100%" height="50%" style="border-radius:15px"> </td>
+    <td width="67%" valign="top">
 <p><heading>Extracting Physics from Blended Game Levels</heading><br>
       Adam Summerville, <b>Anurag Sarkar</b>, Sam Snodgrass, Joseph Osborn<br>
       AIIDE Workshop on Experimental AI in Games (EXAG), 2020<br>
       </p>
+	  
+	  <div class="paper" id="extracting20">
+      <a href="assets/pdfs/summerville2020extracting.pdf">pdf</a> |
+      <a href="javascript:toggleblock('extracting20_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('extracting20')" class="togglebib">bibtex</a> |
+	  
+      <p align="justify"> <i id="extracting20_abs">Several recent PCGML methods have focused on generating game levels and content that blend the properties of multiple games. However, these works ignore the fact that blended levels must in some way have blended physics models that enable playable levels. In this work, we present an approach for extracting jump physics models for such blended game domains. We make use of variational autoencoders (VAEs) trained on level data from six platformers, encoded using a previously introduced path and affordance vocabulary. Our results show that the extraction model is able to reasonably recreate the original physics models when given ground truth paths, and is able to produce physics models that can reliably allow an agent to play the generated levels.  We also find that there are promising results for blended physics models behaving intuitively between physics models of the original games being blended.</i></p>
+	  
+
+<pre xml:space="preserve">
+@inproceedings{summerville2020extracting,
+  Author = {Summerville, Adam and Sarkar, Anurag and
+  Snodgrass, Sam and Osborn, Joseph},
+  Title = {Extracting Physics Models from
+  Blended Platformer Game Levels},
+  Booktitle = {Proceedings of the 
+  Experimental AI in Games (EXAG)
+  Workshop at AIIDE},
+  Year = {2020}
+}
+</pre>
+      </div>
+    </td>
 </tr>
 
 
@@ -967,6 +1040,15 @@ hideblock('gmvae20_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('exploring20_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('extracting20_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('pathfinding20_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('conditional20_abs');
 </script>
 </body>
 
