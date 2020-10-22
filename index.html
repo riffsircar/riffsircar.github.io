@@ -201,7 +201,7 @@ function bubbleSortStep() {
 	</tr>
 	<tr>
     <td width="100%" valign="top" align="justify">
-    <p>I am a PhD Candidate in the <a href="http://khoury.northeastern.edu/" target="_blank">Khoury College of Computer Sciences</a> at <a href="https://www.northeastern.edu/" target="_blank">Northeastern University</a>, advised by <a href="http://www.ccs.neu.edu/home/scooper/">Seth Cooper</a>. I'm broadly interested in procedural content generation (PCG) and specifically on its intersection with machine learning and computational creativity, with my current work focusing on applying ML for PCG in games and for informing game design. Through my research, I'm interested in building co-creative game design tools that leverage machine learning, similar to such tools for <a href="https://github.com/Garfield35/Doodle">visual art</a>, <a href="http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4">images</a> and <a href="https://magenta.tensorflow.org/studio">music</a>. Additionally, I also do research in player skill modeling and difficulty balancing for human computation games. </p>
+    <p>I am a PhD Candidate in the <a href="http://khoury.northeastern.edu/" target="_blank">Khoury College of Computer Sciences</a> at <a href="https://www.northeastern.edu/" target="_blank">Northeastern University</a>, advised by <a href="http://www.ccs.neu.edu/home/scooper/">Seth Cooper</a>. I'm broadly interested in procedural content generation (PCG) and specifically on its intersection with machine learning and computational creativity, with my current work focusing on applying ML for PCG in games and for informing game design. Through my research, I'm interested in building automated and co-creative game design tools that leverage machine learning, similar to such tools for <a href="https://github.com/Garfield35/Doodle">visual art</a>, <a href="http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4">images</a> and <a href="https://magenta.tensorflow.org/studio">music</a>. Additionally, I also do research in player skill modeling and difficulty balancing for human computation games. </p>
     </td>
   </tr>
 </table>
@@ -243,6 +243,8 @@ function bubbleSortStep() {
       <a href="assets/pdfs/sarkar2020conditional.pdf">pdf</a> |
       <a href="javascript:toggleblock('conditional20_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('conditional20')" class="togglebib">bibtex</a> |
+	  <a href="assets/slides/sarkar2020conditional_slides.pdf">slides</a> |
+	  <a href="https://github.com/riffsircar/BlendCVAE">code</a> |
 	  
       <p align="justify"> <i id="conditional20_abs">Prior research has shown variational autoencoders (VAEs) to be useful for generating and blending game levels by learning latent representations of existing level data. We build on such models by exploring the level design affordances and applications enabled by conditional VAEs (CVAEs). CVAEs augment VAEs by allowing them to be trained using labeled data, thus enabling outputs to be generated conditioned on some input. We studied how increased control in the level generation process and the ability to produce desired outputs via training on labeled game level data could build on prior PCGML methods. Through our results of training CVAEs on levels from Super Mario Bros., Kid Icarus and Mega Man, we show that such models can assist in level design by generating levels with desired level elements and patterns as well as producing blended levels with desired combinations of games.</i></p>
 	  
@@ -299,7 +301,7 @@ function bubbleSortStep() {
 <tr>
 <td width="0%" valign="top" align="center"><img src="assets/thumbs/summerville2020extracting.png" alt="" width="100%" height="50%" style="border-radius:15px"> </td>
     <td width="67%" valign="top">
-<p><heading>Extracting Physics from Blended Game Levels</heading><br>
+<p><heading>Extracting Physics from Blended Platformer Game Levels</heading><br>
       Adam Summerville, <b>Anurag Sarkar</b>, Sam Snodgrass, Joseph Osborn<br>
       AIIDE Workshop on Experimental AI in Games (EXAG), 2020<br>
       </p>
@@ -341,6 +343,8 @@ function bubbleSortStep() {
       <a href="assets/pdfs/sarkar2020exploring.pdf">pdf</a> |
       <a href="javascript:toggleblock('exploring20_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('exploring20')" class="togglebib">bibtex</a> |
+	  <a href="assets/slides/sarkar2020exploring_slides.pdf">slides</a> |
+	  <a href="https://youtu.be/THhyk08wNiI">video</a> |
 	  
       <p align="justify"> <i id="exploring20_abs">Techniques for procedural content generation via machine learning (PCGML) have been shown to be useful for generating novel game content. While used primarily for producing new content in the style of the game domain used for training, recent works have increasingly started to explore methods for discovering and generating content in novel domains via techniques such as level blending and domain transfer. In this paper, we build on these works and introduce a new PCGML approach for producing novel game content spanning multiple domains. We use a new affordance and path vocabulary to encode data from six different platformer games and train variational autoencoders on this data, enabling us to capture the latent level space spanning all the domains and generate new content with varying proportions of the different domains.</i></p>
 	  
@@ -373,6 +377,7 @@ function bubbleSortStep() {
       <a href="assets/pdfs/yang2020game.pdf">pdf</a> |
       <a href="javascript:toggleblock('gmvae20_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('gmvae20')" class="togglebib">bibtex</a> |
+	  <a href="https://youtu.be/SbHnIJLWadk">video</a> |
 	  
       <p align="justify"> <i id="gmvae20_abs">Variational autoencoders (VAEs) have been shown to be able to generate game levels but require manual exploration of the learned latent space to generate outputs with desired attributes. While conditional VAEs address this by allowing generation to be conditioned on labels, such labels have to be provided during training and thus require prior knowledge which may not always be available. In this paper, we apply Gaussian Mixture VAEs (GMVAEs), a variant of the VAE which imposes a mixture of Gaussians (GM) on the latent space, unlike regular VAEs which impose a unimodal Gaussian. This allows GMVAEs to cluster levels in an unsupervised manner using the components of the GM and then generate new levels using the learned components. We demonstrate our approach with levels from Super Mario Bros., Kid Icarus and Mega Man. Our results show that the learned components discover and cluster level structures and patterns and can be used to generate levels with desired characteristics.</i></p>
 
@@ -405,6 +410,8 @@ function bubbleSortStep() {
       <a href="assets/pdfs/sarkar2020evaluating.pdf">pdf</a> |
       <a href="javascript:toggleblock('evaluating20_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('evaluating20')" class="togglebib">bibtex</a> |
+	  <a href="assets/slides/sarkar2020evaluating_slides.pdf">slides</a> |
+	  <a href="https://youtu.be/WoHsgGMZ8yQ">video</a> |
 	  
       <p align="justify"> <i id="evaluating20_abs">Skill chains define how in-game skills build on each other and the order in which players ideally acquire them during gameplay. This can enable dynamic difficulty adjustment (DDA) by serving levels based on the skills that players currently have and those required to solve a given level. Similarly, DDA can also be achieved by using rating systems to match players with suitable levels by assigning ratings to players and levels based on ability and difficulty respectively. However, the relative effects of these two methods remain unclear, particularly in the context of human computation games (HCGs). In this paper, we present a general model for using skill chains and rating systems in a combined DDA system along with an evaluation comparing the two for difficulty balancing within HCGs, focusing on the relative merits of both methods when used separately as well as together. We evaluate our methods using the HCGs Iowa James and Paradox. Our findings suggest that incorporating skill chains can improve upon previously shown benefits of using only rating systems for DDA in HCGs.</i></p>
 
